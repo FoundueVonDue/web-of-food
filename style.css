@@ -1,0 +1,38 @@
+.node {
+  cursor: pointer;
+}
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+.node text {
+  font: 10px sans-serif;
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 5px;
+}
+
+/* Settings for hover effects over nodes:*/
+g.node {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+g.node circle {
+    transition: r 0.2s;
+}
+
+p{
+  padding-bottom: 50px;
+}
+
+sources{
+  padding-bottom: 10px;
+}
+
+h2{
+  padding-bottom: 12px;
+}
