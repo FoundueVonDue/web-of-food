@@ -3817,15 +3817,14 @@ var node = svg.selectAll("g.node")
 var nodeEnter = node.enter().append("g")
     .attr("class", "node")
     .on("click", click)
-    .on("touchstart", function(d) {
-        // Prevent default to avoid triggering mouseover
+    .on("touchend", function(d) {
         d3.event.preventDefault();
-        // Trigger click
+        d3.event.stopPropagation();
         click.call(this, d);
     })
-    .on("mouseover", function(d) {
-        // Only trigger on non-touch devices
-        if (d3.event.sourceEvent && d3.event.sourceEvent.type === "touchstart") return;
+    // Only add hover effects on non-touch devices
+if (!('ontouchstart' in window)) {
+    nodeEnter.on("mouseover", function(d) {
         
         this.parentNode.appendChild(this);
         
@@ -3858,6 +3857,7 @@ var nodeEnter = node.enter().append("g")
             .duration(hoverTextDuration_off)
             .style("font-size", fontSize + "px");
     })
+}
 
         
 
