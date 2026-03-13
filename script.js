@@ -3577,7 +3577,7 @@ var zoomMin = 0.1;
 var zoomMax = 0.1;
 var currentZoom = 1; // Current zoom scale on the page - updates each time the zoom function is used
 
-var hoverScaleConstant = 0.5;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
+var hoverScaleConstant = 1;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
 var hoverNodeDuration_on = 0;    // How long time to expand node hovered over?
 var hoverNodeDuration_off = 500;    // How long time to shrink node no longer hovered over?
 var hoverTextDuration_on = 500;    // How long time to shrink text in node hovered over? (greater than hoverNodeDuration_on, so as to not reach past node)
