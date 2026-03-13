@@ -29,10 +29,49 @@ p{
   padding-bottom: 50px;
 }
 
-sources{
-  padding-bottom: 10px;
-}
 
 h2{
   padding-bottom: 12px;
+}
+
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    /* Search container */
+    #search-container {
+        top: 10px !important;
+        left: 10px !important;
+        right: 10px !important;
+        width: auto !important;
+    }
+    
+    #search-input {
+        width: 100% !important;
+        max-width: 150px !important;
+        font-size: 12px !important;
+        padding: 6px !important;
+    }
+    
+    #search-button, #reset-button {
+        font-size: 12px !important;
+        padding: 6px 10px !important;
+    }
+    
+    /* About/navigation buttons */
+    nav {
+        top: 10px !important;
+        right: 10px !important;
+    }
+    
+    nav a, nav button {
+        font-size: 14px !important;
+        padding: 6px 12px !important;
+    }
+    
+    /* Copyright text */
+    #copyright {
+        font-size: 10px !important;
+        bottom: 5px !important;
+        left: 5px !important;
+    }
 }

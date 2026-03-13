@@ -3577,7 +3577,7 @@ var zoomMin = 0.1;
 var zoomMax = 0.1;
 var currentZoom = 1; // Current zoom scale on the page - updates each time the zoom function is used
 
-var hoverScaleConstant = 1.5;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
+var hoverScaleConstant = 0.9;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
 var hoverNodeDuration_on = 0;    // How long time to expand node hovered over?
 var hoverNodeDuration_off = 500;    // How long time to shrink node no longer hovered over?
 var hoverTextDuration_on = 500;    // How long time to shrink text in node hovered over? (greater than hoverNodeDuration_on, so as to not reach past node)
@@ -3817,42 +3817,47 @@ var node = svg.selectAll("g.node")
 var nodeEnter = node.enter().append("g")
     .attr("class", "node")
     .on("click", click)
-
-    // Increase size of node and text within when hovered over:
+    .on("touchstart", function(d) {
+        // Prevent default to avoid triggering mouseover
+        d3.event.preventDefault();
+        // Trigger click
+        click.call(this, d);
+    })
     .on("mouseover", function(d) {
-    this.parentNode.appendChild(this);
-    
-    var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
-    
-    d3.select(this).select("circle")
-        .transition()
-        .duration(hoverNodeDuration_on)
-        .attr("r", nodeRadius * hoverScale);
-    
-    // Target tspan elements instead of text
-    var lines = d.name.split(lineBreakString);
-    var fontSize = calculateFontSize(lines) * hoverScale;
-    d3.select(this).select("text")
-        .selectAll("tspan")
-        .transition()
-        .duration(hoverTextDuration_on)
-        .style("font-size", fontSize + "px");
-})
-.on("mouseout", function(d) {
-    d3.select(this).select("circle")
-        .transition()
-        .duration(hoverNodeDuration_off)
-        .attr("r", nodeRadius);
-    
-    // Target tspan elements instead of text
-    var lines = d.name.split(lineBreakString);
-    var fontSize = calculateFontSize(lines);
-    d3.select(this).select("text")
-        .selectAll("tspan")
-        .transition()
-        .duration(hoverTextDuration_off)
-        .style("font-size", fontSize + "px");
-})
+        // Only trigger on non-touch devices
+        if (d3.event.sourceEvent && d3.event.sourceEvent.type === "touchstart") return;
+        
+        this.parentNode.appendChild(this);
+        
+        var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
+        
+        d3.select(this).select("circle")
+            .transition()
+            .duration(hoverNodeDuration_on)
+            .attr("r", nodeRadius * hoverScale);
+        
+        var lines = d.name.split(lineBreakString);
+        var fontSize = calculateFontSize(lines) * hoverScale;
+        d3.select(this).select("text")
+            .selectAll("tspan")
+            .transition()
+            .duration(hoverTextDuration_on)
+            .style("font-size", fontSize + "px");
+    })
+    .on("mouseout", function(d) {
+        d3.select(this).select("circle")
+            .transition()
+            .duration(hoverNodeDuration_off)
+            .attr("r", nodeRadius);
+        
+        var lines = d.name.split(lineBreakString);
+        var fontSize = calculateFontSize(lines);
+        d3.select(this).select("text")
+            .selectAll("tspan")
+            .transition()
+            .duration(hoverTextDuration_off)
+            .style("font-size", fontSize + "px");
+    })
 
         
 
