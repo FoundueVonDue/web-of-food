@@ -3822,6 +3822,15 @@ var nodeEnter = node.enter().append("g")
 
 // Add click/touch handlers
 if (isTouchDevice) {
+
+    nodeEnter.on("touchend", function(d) {
+        console.log("Touch detected on:", d.name); // Add this line
+        d3.event.preventDefault();
+        d3.event.stopPropagation();
+        click(d);
+    });
+
+
     // Touch devices: only touchend, no mouse events at all
     nodeEnter.on("touchend", function(d) {
         d3.event.preventDefault();
