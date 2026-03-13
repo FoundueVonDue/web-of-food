@@ -3814,49 +3814,55 @@ var node = svg.selectAll("g.node")
         return d.id;  // Use the pre-assigned ID
     });
 
+// Detect if this is a touch device
+var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
 var nodeEnter = node.enter().append("g")
-    .attr("class", "node")
-    .on("click", click)
-    .on("touchend", function(d) {
+    .attr("class", "node");
+
+// Add click/touch handlers
+if (isTouchDevice) {
+    // Touch devices: only touchend, no mouse events at all
+    nodeEnter.on("touchend", function(d) {
         d3.event.preventDefault();
         d3.event.stopPropagation();
-        click.call(this, d);
-    })
-    // Only add hover effects on non-touch devices
-if (!('ontouchstart' in window)) {
-    nodeEnter.on("mouseover", function(d) {
-        
-        this.parentNode.appendChild(this);
-        
-        var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
-        
-        d3.select(this).select("circle")
-            .transition()
-            .duration(hoverNodeDuration_on)
-            .attr("r", nodeRadius * hoverScale);
-        
-        var lines = d.name.split(lineBreakString);
-        var fontSize = calculateFontSize(lines) * hoverScale;
-        d3.select(this).select("text")
-            .selectAll("tspan")
-            .transition()
-            .duration(hoverTextDuration_on)
-            .style("font-size", fontSize + "px");
-    })
-    .on("mouseout", function(d) {
-        d3.select(this).select("circle")
-            .transition()
-            .duration(hoverNodeDuration_off)
-            .attr("r", nodeRadius);
-        
-        var lines = d.name.split(lineBreakString);
-        var fontSize = calculateFontSize(lines);
-        d3.select(this).select("text")
-            .selectAll("tspan")
-            .transition()
-            .duration(hoverTextDuration_off)
-            .style("font-size", fontSize + "px");
-    })
+        click(d);
+    });
+} else {
+    // Desktop: click + hover effects
+    nodeEnter.on("click", click)
+        .on("mouseover", function(d) {
+            this.parentNode.appendChild(this);
+            
+            var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
+            
+            d3.select(this).select("circle")
+                .transition()
+                .duration(hoverNodeDuration_on)
+                .attr("r", nodeRadius * hoverScale);
+            
+            var lines = d.name.split(lineBreakString);
+            var fontSize = calculateFontSize(lines) * hoverScale;
+            d3.select(this).select("text")
+                .selectAll("tspan")
+                .transition()
+                .duration(hoverTextDuration_on)
+                .style("font-size", fontSize + "px");
+        })
+        .on("mouseout", function(d) {
+            d3.select(this).select("circle")
+                .transition()
+                .duration(hoverNodeDuration_off)
+                .attr("r", nodeRadius);
+            
+            var lines = d.name.split(lineBreakString);
+            var fontSize = calculateFontSize(lines);
+            d3.select(this).select("text")
+                .selectAll("tspan")
+                .transition()
+                .duration(hoverTextDuration_off)
+                .style("font-size", fontSize + "px");
+        });
 }
 
         
