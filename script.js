@@ -3577,10 +3577,10 @@ var zoomMin = 0.1;
 var zoomMax = 0.1;
 var currentZoom = 1; // Current zoom scale on the page - updates each time the zoom function is used
 
-var hoverScaleConstant = 1;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
+var hoverScaleConstant = 0.7;   // How much the node and font increases in size if currentZoom = 1 (no zoom in/out)
 var hoverNodeDuration_on = 0;    // How long time to expand node hovered over?
-var hoverNodeDuration_off = 500;    // How long time to shrink node no longer hovered over?
-var hoverTextDuration_on = 500;    // How long time to shrink text in node hovered over? (greater than hoverNodeDuration_on, so as to not reach past node)
+var hoverNodeDuration_off = 0;    // How long time to shrink node no longer hovered over?
+var hoverTextDuration_on = 0;    // How long time to shrink text in node hovered over? (greater than hoverNodeDuration_on, so as to not reach past node)
 var hoverTextDuration_off = 0;    // How long time to shrink text in node no longer hovered over? (smaller than hoverNodeDuration_off, so as to not reach past node)
 
 
@@ -3840,25 +3840,50 @@ if (isTouchDevice) {
 } else {
     // Desktop: click + hover effects
     nodeEnter.on("click", click)
-        .on("mouseover", function(d) {
-            this.parentNode.appendChild(this);
+        if (!isTouchDevice) {
+    nodeEnter.on("click", click)
+        .on("mousemove", function(d) {
+            // Get mouse position relative to node center
+            var mouse = d3.mouse(this);
+            var distance = Math.sqrt(mouse[0] * mouse[0] + mouse[1] * mouse[1]);
             
-            var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
-            
-            d3.select(this).select("circle")
-                .transition()
-                .duration(hoverNodeDuration_on)
-                .attr("r", nodeRadius * hoverScale);
-            
-            var lines = d.name.split(lineBreakString);
-            var fontSize = calculateFontSize(lines) * hoverScale;
-            d3.select(this).select("text")
-                .selectAll("tspan")
-                .transition()
-                .duration(hoverTextDuration_on)
-                .style("font-size", fontSize + "px");
+            // If within original node radius, expand
+            if (distance <= nodeRadius) {
+                // Bring to front
+                this.parentNode.appendChild(this);
+                
+                var hoverScale = Math.max(hoverScaleConstant / currentZoom, 1);
+                
+                d3.select(this).select("circle")
+                    .transition()
+                    .duration(hoverNodeDuration_on)
+                    .attr("r", nodeRadius * hoverScale);
+                
+                var lines = d.name.split(lineBreakString);
+                var fontSize = calculateFontSize(lines) * hoverScale;
+                d3.select(this).select("text")
+                    .selectAll("tspan")
+                    .transition()
+                    .duration(hoverTextDuration_on)
+                    .style("font-size", fontSize + "px");
+            } else {
+                // Outside original radius, shrink back
+                d3.select(this).select("circle")
+                    .transition()
+                    .duration(hoverNodeDuration_off)
+                    .attr("r", nodeRadius);
+                
+                var lines = d.name.split(lineBreakString);
+                var fontSize = calculateFontSize(lines);
+                d3.select(this).select("text")
+                    .selectAll("tspan")
+                    .transition()
+                    .duration(hoverTextDuration_off)
+                    .style("font-size", fontSize + "px");
+            }
         })
         .on("mouseout", function(d) {
+            // Always shrink when mouse leaves node entirely
             d3.select(this).select("circle")
                 .transition()
                 .duration(hoverNodeDuration_off)
@@ -3869,9 +3894,10 @@ if (isTouchDevice) {
             d3.select(this).select("text")
                 .selectAll("tspan")
                 .transition()
-                .duration(hoverTextDuration_off)
+                .duration(hoverNodeDuration_off)
                 .style("font-size", fontSize + "px");
         });
+}
 }
 
         
