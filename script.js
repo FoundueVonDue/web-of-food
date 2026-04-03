@@ -1,3551 +1,3 @@
-var pubs = 
-{"name": "Eukaryoter",
-"children": [
-{"name": "Kromalveolater",
-"children": [
-{"name": "Stramenopiler",
-"children": [
-{"name": "Brunalger",
-"children": [
-{"name": "Fucales",
-"children": [
-{"name": "Fucaceae",
-"children": [
-{"name": "Ascophyllum",
-"children": [
-{"name": "Knöltång"},
-
-]},{"name": "Fucus",
-"children": [
-{"name": "Blåstång"},
-{"name": "Sågtång"},
-{"name": "Smaltång"},
-
-]},
-]},{"name": "Sargassaceae",
-"children": [
-{"name": "Sargassotång",
-"children": [
-{"name": "Sargassosnärja"},
-
-]},
-]},
-]},{"name": "Laminariales",
-"children": [
-{"name": "Chordaceae",
-"children": [
-{"name": "Chorda",
-"children": [
-{"name": "Sudare"},
-
-]},
-]},{"name": "Laminariaceae",
-"children": [
-{"name": "Laminaria",
-"children": [
-{"name": "Fingertång"},
-{"name": "Stor-tare"},
-
-]},{"name": "Saccharina",
-"children": [
-{"name": "Sockertång"},
-
-]},
-]},
-]},
-]},
-]},
-]},{"name": "Svampar",
-"children": [
-{"name": "Basidiesvampar",
-"children": [
-{"name": "Agaricomycetes",
-"children": [
-{"name": "Agaricales",
-"children": [
-{"name": "Marasmiaceae",
-"children": [
-{"name": "Lentinula",
-"children": [
-{"name": "Shiitake"},
-
-]},
-]},
-]},{"name": "Auriculariales",
-"children": [
-{"name": "Auriculariaceae",
-"children": [
-{"name": "Auricularia",
-"children": [
-{"name": "Judasöra"},
-
-]},
-]},
-]},{"name": "Cantharellales",
-"children": [
-{"name": "Hydnaceae",
-"children": [
-{"name": "Cantharellus",
-"children": [
-{"name": "Blek Kantarell"},
-{"name": "Kantarell"},
-
-]},{"name": "Craterellus",
-"children": [
-{"name": "Rödgul Trumpetsvamp"},
-{"name": "Svart Trumpetsvamp"},
-{"name": "Trattkantarell"},
-
-]},{"name": "Mat-taggsvampar",
-"children": [
-{"name": "Blek Taggsvamp"},
-{"name": "Rödgul Taggsvamp"},
-
-]},
-]},
-]},{"name": "Gloeophyllales",
-"children": [
-{"name": "Gloeophyllaceae",
-"children": [
-{"name": "Neolentinus",
-"children": [
-{"name": "Syllsvamp"},
-
-]},
-]},
-]},{"name": "Gomphales",
-"children": [
-{"name": "Gomphaceae",
-"children": [
-{"name": "Fingersvampar",
-"children": [
-{"name": "Druvfingersvamp"},
-
-]},{"name": "Gomphus",
-"children": [
-{"name": "Violgubbe"},
-
-]},
-]},
-]},{"name": "Phallales",
-"children": [
-{"name": "Stinksvampar",
-"children": [
-{"name": "Phallus",
-"children": [
-{"name": "Dynstinksvamp"},
-{"name": "Stinksvamp"},
-
-]},
-]},
-]},{"name": "Polyporales",
-"children": [
-{"name": "Fomitopsidaceae",
-"children": [
-{"name": "Ischnoderma",
-"children": [
-{"name": "Sydlig Sotticka"},
-
-]},
-]},{"name": "Meripilaceae",
-"children": [
-{"name": "Grifola",
-"children": [
-{"name": "Korallticka"},
-
-]},{"name": "Meripilus",
-"children": [
-{"name": "Jätteticka"},
-
-]},
-]},{"name": "Polyporaceae",
-"children": [
-{"name": "Laetiporus",
-"children": [
-{"name": "Svavelticka"},
-
-]},{"name": "Polyporus",
-"children": [
-{"name": "Grenticka"},
-
-]},{"name": "Trametes",
-"children": [
-{"name": "Sidenticka"},
-
-]},
-]},{"name": "Sparassidaceae",
-"children": [
-{"name": "Sparassis",
-"children": [
-{"name": "Blomkålssvamp"},
-
-]},
-]},
-]},{"name": "Russulales",
-"children": [
-{"name": "Albatrellaceae",
-"children": [
-{"name": "Albatrellus",
-"children": [
-{"name": "Fårticka"},
-
-]},
-]},{"name": "Auriscalpiaceae",
-"children": [
-{"name": "Artomyces",
-"children": [
-{"name": "Kandelabersvamp"},
-
-]},
-]},{"name": "Hericiaceae",
-"children": [
-{"name": "Koralltaggsvampar",
-"children": [
-{"name": "Igelkottaggsvamp"},
-{"name": "Koralltaggsvamp"},
-
-]},
-]},{"name": "Kremlor och riskor",
-"children": [
-{"name": "Kremlor",
-"children": [
-{"name": "Grönkremla"},
-{"name": "Kantkremla"},
-{"name": "Mandelkremla"},
-{"name": "Rutkremla"},
-{"name": "Sillkremla"},
-
-]},{"name": "Riskor",
-"children": [
-{"name": "Blodriska"},
-{"name": "Grönfläckig Vinriska"},
-{"name": "Kamferriska"},
-{"name": "Mandelriska"},
-{"name": "Pepparriska"},
-{"name": "Tallblodriska"},
-{"name": "Vinriska"},
-
-]},
-]},
-]},{"name": "Skivlingar",
-"children": [
-{"name": "Agaricaceae",
-"children": [
-{"name": "Calvatia",
-"children": [
-{"name": "Jätteröksvamp"},
-
-]},{"name": "Champinjoner",
-"children": [
-{"name": "Ängschampinjon"},
-{"name": "Kungschampinjon"},
-{"name": "Skogschampinjon"},
-{"name": "Trädgårdschampinjon"},
-
-]},{"name": "Chlorophyllum",
-"children": [
-{"name": "Rodnande Fjällskivling"},
-
-]},{"name": "Coprinus",
-"children": [
-{"name": "Fjällig Bläcksvamp"},
-
-]},{"name": "Lycoperdon",
-"children": [
-{"name": "Vårtig Röksvamp"},
-
-]},{"name": "Macrolepiota",
-"children": [
-{"name": "Stolt Fjällskivling"},
-
-]},
-]},{"name": "Amanitaceae",
-"children": [
-{"name": "Flugsvampar",
-"children": [
-{"name": "Röd Flugsvamp"},
-{"name": "Rodnande Flugsvamp"},
-
-]},
-]},{"name": "Fistulinaceae",
-"children": [
-{"name": "Fistulina",
-"children": [
-{"name": "Oxtungssvamp"},
-
-]},
-]},{"name": "Hygrophoraceae",
-"children": [
-{"name": "Hygrophorus",
-"children": [
-{"name": "Frostvaxskivling"},
-{"name": "Kremlevaxskivling"},
-
-]},
-]},{"name": "Lyophyllaceae",
-"children": [
-{"name": "Calocybe",
-"children": [
-{"name": "Vårmusseron"},
-
-]},
-]},{"name": "Marasmiaceae",
-"children": [
-{"name": "Marasmius",
-"children": [
-{"name": "Nejlikbroskskivling"},
-
-]},
-]},{"name": "Mycenaceae",
-"children": [
-{"name": "Panellus",
-"children": [
-{"name": "Grönmussling"},
-
-]},
-]},{"name": "Physalacriaceae",
-"children": [
-{"name": "Flammulina",
-"children": [
-{"name": "Vinterskivling"},
-
-]},{"name": "Honungsskivlingar",
-"children": [
-{"name": "Honungsskivling"},
-{"name": "Klubbhonungsskivling"},
-
-]},
-]},{"name": "Pleurotaceae",
-"children": [
-{"name": "Pleurotus",
-"children": [
-{"name": "Citronmussling"},
-{"name": "Kungsmussling"},
-{"name": "Ostronmussling"},
-{"name": "Ringmussling"},
-
-]},
-]},{"name": "Pluteaceae",
-"children": [
-{"name": "Pluteus",
-"children": [
-{"name": "Fjällskölding"},
-{"name": "Hjortskölding"},
-
-]},{"name": "Slidskivlingar",
-"children": [
-{"name": "Halmslidskivling"},
-{"name": "Silkesslidskivling"},
-
-]},
-]},{"name": "Psathyrellaceae",
-"children": [
-{"name": "Coprinellus",
-"children": [
-{"name": "Glitterbläcksvamp"},
-
-]},
-]},{"name": "Strophariaceae",
-"children": [
-{"name": "Hypholoma",
-"children": [
-{"name": "Rökslöjskivling"},
-
-]},{"name": "Tofsskivlingar",
-"children": [
-{"name": "Slemmig Tofsskivling"},
-
-]},
-]},{"name": "Tricholomataceae",
-"children": [
-{"name": "Hypsizygus",
-"children": [
-{"name": "Almskivling"},
-
-]},{"name": "Lepista",
-"children": [
-{"name": "Blåmusseron"},
-{"name": "Höstmusseron"},
-
-]},{"name": "Musseroner",
-"children": [
-{"name": "Goliatmusseron"},
-{"name": "Poppelmusseron"},
-
-]},
-]},
-]},{"name": "Soppar",
-"children": [
-{"name": "Boletaceae",
-"children": [
-{"name": "Imleria",
-"children": [
-{"name": "Brunsopp"},
-
-]},
-]},{"name": "Gyroporaceae",
-"children": [
-{"name": "Gyroporus",
-"children": [
-{"name": "Blåsopp"},
-{"name": "Kastanjesopp"},
-
-]},
-]},{"name": "Hygrophoropsidaceae",
-"children": [
-{"name": "Hygrophoropsis",
-"children": [
-{"name": "Falsk Kantarell"},
-
-]},
-]},{"name": "Suillaceae",
-"children": [
-{"name": "Suillus",
-"children": [
-{"name": "Grynsopp"},
-{"name": "Lärksopp"},
-{"name": "Sandsopp"},
-{"name": "Smörsopp"},
-
-]},
-]},
-]},{"name": "Thelephorales",
-"children": [
-{"name": "Bankeraceae",
-"children": [
-{"name": "Sarcodon",
-"children": [
-{"name": "Fjällig Taggsvamp"},
-
-]},
-]},
-]},
-]},{"name": "Tremellomycetes",
-"children": [
-{"name": "Gelésvampar",
-"children": [
-{"name": "Tremellaceae",
-"children": [
-{"name": "Tremella",
-"children": [
-{"name": "Gullkrös"},
-
-]},
-]},
-]},
-]},{"name": "Ustilaginomycetes",
-"children": [
-{"name": "Ustilaginales",
-"children": [
-{"name": "Ustilaginaceae",
-"children": [
-{"name": "Ustilago",
-"children": [
-{"name": "Huitlacoche"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Sporsäcksvampar",
-"children": [
-{"name": "Kärnsvampar",
-"children": [
-{"name": "Köttkärn -svampar",
-"children": [
-{"name": "Cordycipitaceae",
-"children": [
-{"name": "Cordyceps",
-"children": [
-{"name": "Röd Larvklubba"},
-
-]},
-]},
-]},
-]},{"name": "Lecanoromycetes",
-"children": [
-{"name": "Lecanorales",
-"children": [
-{"name": "Cladoniaceae",
-"children": [
-{"name": "Cladonia",
-"children": [
-{"name": "Grå Renlav"},
-
-]},
-]},{"name": "Parmeliaceae",
-"children": [
-{"name": "Bryoria",
-"children": [
-{"name": "Manlav"},
-
-]},{"name": "Cetraria",
-"children": [
-{"name": "Islandslav"},
-
-]},
-]},
-]},{"name": "Umbilicariales",
-"children": [
-{"name": "Umbilicariaceae",
-"children": [
-{"name": "Lasallia",
-"children": [
-{"name": "Tuschlav"},
-
-]},
-]},
-]},
-]},{"name": "Pezizomycetes",
-"children": [
-{"name": "Skålsvampar",
-"children": [
-{"name": "Discinaceae",
-"children": [
-{"name": "Stenmurklor",
-"children": [
-{"name": "Stenmurkla"},
-
-]},
-]},{"name": "Morchellaceae",
-"children": [
-{"name": "Morchella",
-"children": [
-{"name": "Hättmurkla"},
-{"name": "Toppmurkla"},
-
-]},{"name": "Verpa",
-"children": [
-{"name": "Vindlad Klockmurkla"},
-
-]},
-]},{"name": "Tuberaceae",
-"children": [
-{"name": "Ädeltryfflar",
-"children": [
-{"name": "Albatryffel"},
-{"name": "Perigordtryffel"},
-{"name": "Sommartryffel"},
-
-]},
-]},
-]},
-]},
-]},
-]},{"name": "Växter",
-"children": [
-{"name": "Fröväxter",
-"children": [
-{"name": "Barrväxter",
-"children": [
-{"name": "Pinopsida",
-"children": [
-{"name": "Tallordningen",
-"children": [
-{"name": "Araukariaväxter",
-"children": [
-{"name": "Brödgranssläktet",
-"children": [
-{"name": "Brödgran"},
-
-]},
-]},{"name": "Cypressväxter",
-"children": [
-{"name": "Ensläktet",
-"children": [
-{"name": "Blyerts-En"},
-{"name": "En"},
-{"name": "Kinesisk En"},
-{"name": "Röden"},
-
-]},
-]},{"name": "Idegransväxter",
-"children": [
-{"name": "Idegranar",
-"children": [
-{"name": "Idegran"},
-{"name": "Japansk Idegran"},
-
-]},
-]},{"name": "Tallväxter",
-"children": [
-{"name": "Gransläktet",
-"children": [
-{"name": "Blågran"},
-{"name": "Gran"},
-
-]},{"name": "Hemlockgransläktet",
-"children": [
-{"name": "Hemlock"},
-
-]},{"name": "Tallsläktet",
-"children": [
-{"name": "Pinje"},
-{"name": "Tall"},
-{"name": "Weymouthtall"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Gömfröväxter",
-"children": [
-{"name": "Austrobaileyales",
-"children": [
-{"name": "Stjärnanisväxter",
-"children": [
-{"name": "Stjärnanissläktet",
-"children": [
-{"name": "Stjärnanis"},
-
-]},
-]},
-]},{"name": "Särvordningen",
-"children": [
-{"name": "Särvväxter",
-"children": [
-{"name": "Särvsläktet",
-"children": [
-{"name": "Hornsärv"},
-
-]},
-]},
-]},{"name": "Enhjärtbladiga växter",
-"children": [
-{"name": "Gräsordningen",
-"children": [
-{"name": "Ananasväxter",
-"children": [
-{"name": "Ananassläktet",
-"children": [
-{"name": "Ananas"},
-
-]},{"name": "Tillandsiasläktet",
-"children": [
-{"name": "Bågtillandsia"},
-{"name": "Spansk Mossa"},
-
-]},
-]},{"name": "Gräs",
-"children": [
-{"name": "Bockveten",
-"children": [
-{"name": "Tandat Bockvete"},
-
-]},{"name": "Citrongrässläktet",
-"children": [
-{"name": "Västindiskt citrongräs"},
-
-]},{"name": "Durrasläktet",
-"children": [
-{"name": "Durra"},
-
-]},{"name": "Elmar",
-"children": [
-{"name": "Kanadaelm"},
-{"name": "Kvickrot"},
-{"name": "Sibirisk elm"},
-
-]},{"name": "Fingerhirssläktet",
-"children": [
-{"name": "Blodhirs"},
-
-]},{"name": "Havresläktet",
-"children": [
-{"name": "Havre"},
-
-]},{"name": "Hönshirser",
-"children": [
-{"name": "Hönshirs"},
-
-]},{"name": "Imperata",
-"children": [
-{"name": "Japanskt blodgräs"},
-
-]},{"name": "Indianrissläktet",
-"children": [
-{"name": "Indianris"},
-{"name": "Manchuriskt ris"},
-
-]},{"name": "Kärleksgrässläktet",
-"children": [
-{"name": "Teff"},
-
-]},{"name": "Knapphirser",
-"children": [
-{"name": "Knapphirs"},
-
-]},{"name": "Majssläktet",
-"children": [
-{"name": "Majs"},
-
-]},{"name": "Rågsläktet",
-"children": [
-{"name": "Råg"},
-
-]},{"name": "Rissläktet",
-"children": [
-{"name": "Afrikanskt ris"},
-{"name": "Asiatiskt ris"},
-
-]},{"name": "Tagghirser",
-"children": [
-{"name": "Igelkottshirs"},
-{"name": "Pärlhirs"},
-{"name": "Tagghirs"},
-
-]},{"name": "Vårbroddssläktet",
-"children": [
-{"name": "Vårbrodd"},
-
-]},{"name": "Vassläktet",
-"children": [
-{"name": "Bladvass"},
-
-]},{"name": "Vetesläktet",
-"children": [
-{"name": "Durumvete"},
-{"name": "Emmer"},
-{"name": "Kubbvete"},
-{"name": "Vete"},
-
-]},
-]},{"name": "Halvgräs",
-"children": [
-{"name": "Agar",
-"children": [
-{"name": "Ag"},
-
-]},{"name": "Sävsläktet",
-"children": [
-{"name": "Blåsäv"},
-
-]},{"name": "Skärmagssläktet",
-"children": [
-{"name": "Jordmandel"},
-
-]},{"name": "Småsävssläktet",
-"children": [
-{"name": "Vattenkastanj"},
-
-]},
-]},{"name": "Kaveldunsväxter",
-"children": [
-{"name": "Kaveldunssläktet",
-"children": [
-{"name": "Bredkaveldun"},
-{"name": "Smalkaveldun"},
-
-]},
-]},
-]},{"name": "Himmelsblomsordningen",
-"children": [
-{"name": "Himmelsblommeväxter",
-"children": [
-{"name": "Himmelsblommor",
-"children": [
-{"name": "Liten Himmelsblomma"},
-
-]},{"name": "Tremastarblomssläktet",
-"children": [
-{"name": "Tremastarblomma"},
-
-]},
-]},{"name": "Vattenhyacintväxter",
-"children": [
-{"name": "Pontederiasläktet",
-"children": [
-{"name": "Pontederia"},
-
-]},
-]},
-]},{"name": "Ingefärsordningen",
-"children": [
-{"name": "Bananväxter",
-"children": [
-{"name": "Banansläktet",
-"children": [
-{"name": "Ädelbanan"},
-{"name": "Balbisbanan"},
-{"name": "Basjoohampa"},
-
-]},
-]},{"name": "Ingefärsväxter",
-"children": [
-{"name": "Amomum",
-"children": [
-{"name": "Svart kardemumma"},
-
-]},{"name": "Elettaria",
-"children": [
-{"name": "kardemumma"},
-
-]},{"name": "Gurkmejasläktet",
-"children": [
-{"name": "Gurkmeja"},
-
-]},{"name": "Kaempferia",
-"children": [
-{"name": "Galanga"},
-
-]},{"name": "Zingiber",
-"children": [
-{"name": "Ingefära"},
-
-]},
-]},{"name": "Kannaväxter",
-"children": [
-{"name": "Kannasläktet",
-"children": [
-{"name": "Röd Arrowrot"},
-
-]},
-]},{"name": "Papegojblomsväxter",
-"children": [
-{"name": "Ravendalasläktet",
-"children": [
-{"name": "De Resandes Träd"},
-
-]},
-]},{"name": "Strimbladsväxter",
-"children": [
-{"name": "Kalatea",
-"children": [
-{"name": "Topi tambo"},
-
-]},{"name": "Thalia",
-"children": [
-{"name": "Stor thalia"},
-
-]},
-]},
-]},{"name": "Jamsordningen",
-"children": [
-{"name": "Jamsväxter",
-"children": [
-{"name": "Jamssläktet",
-"children": [
-{"name": "Jams"},
-{"name": "Luftpotatis"},
-
-]},
-]},
-]},{"name": "Kalmusar",
-"children": [
-{"name": "Kalmusväxter",
-"children": [
-{"name": "Kalmusar",
-"children": [
-{"name": "Kalmus"},
-
-]},
-]},
-]},{"name": "Liljeordningen",
-"children": [
-{"name": "Liljeväxter",
-"children": [
-{"name": "Hundtandsliljesläktet",
-"children": [
-{"name": "Bronsfärgad Hundtandslilja"},
-{"name": "Hundtandslilja"},
-
-]},{"name": "Liljesläktet",
-"children": [
-{"name": "Brandlilja"},
-{"name": "Drottninglilja"},
-{"name": "Kanadalilja"},
-{"name": "Kantonlilja"},
-{"name": "Panterlilja"},
-{"name": "Tigerlilja"},
-
-]},{"name": "Tulpansläktet",
-"children": [
-{"name": "Tulpan"},
-
-]},
-]},{"name": "Nysrotsväxter",
-"children": [
-{"name": "Björnliljesläktet",
-"children": [
-{"name": "Björnlilja"},
-
-]},{"name": "Trebladssläktet",
-"children": [
-{"name": "Purpurtreblad"},
-{"name": "Stort Treblad"},
-
-]},
-]},{"name": "Smilaxväxter",
-"children": [
-{"name": "Smilax",
-"children": [
-{"name": "Taggranka"},
-
-]},
-]},
-]},{"name": "Palmordningen",
-"children": [
-{"name": "Palmer",
-"children": [
-{"name": "Arenga",
-"children": [
-{"name": "Sockerpalm"},
-
-]},{"name": "Caryota",
-"children": [
-{"name": "Kitulpalm"},
-
-]},{"name": "Euterpe",
-"children": [
-{"name": "Jussarapalm"},
-
-]},{"name": "Oljepalmssläktet",
-"children": [
-{"name": "Oljepalm"},
-
-]},{"name": "Salacca",
-"children": [
-{"name": "Kelubi"},
-
-]},{"name": "Syagrus",
-"children": [
-{"name": "Drottningpalm"},
-
-]},
-]},
-]},{"name": "Ranunkelordningen",
-"children": [
-{"name": "Berberisväxter",
-"children": [
-{"name": "Berberissläktet",
-"children": [
-{"name": "Berberis"},
-{"name": "Häckberberis"},
-
-]},{"name": "Fotblad",
-"children": [
-{"name": "Indiskt Fotblad"},
-
-]},{"name": "Mahoniasläktet",
-"children": [
-{"name": "Mahonia"},
-
-]},
-]},{"name": "Narrbuskeväxter",
-"children": [
-{"name": "Akebior",
-"children": [
-{"name": "Fembladig Akebia"},
-
-]},
-]},{"name": "Ranunkelväxter",
-"children": [
-{"name": "Aklejsläktet",
-"children": [
-{"name": "Coloradoakleja"},
-{"name": "Scharlakansakleja"},
-
-]},{"name": "Ficaria",
-"children": [
-{"name": "Svalört"},
-
-]},{"name": "Kabblekesläktet",
-"children": [
-{"name": "Kabbleka"},
-
-]},{"name": "Lappranunkler",
-"children": [
-{"name": "Glansranunkel"},
-
-]},{"name": "Nigellasläktet",
-"children": [
-{"name": "Jungfrun i det gröna"},
-{"name": "Svartkummin"},
-
-]},{"name": "Ranunkelsläktet",
-"children": [
-{"name": "Backsmörblomma"},
-{"name": "Knölsmörblomma"},
-{"name": "Lappranunkel"},
-{"name": "Revsmörblomma"},
-{"name": "Smörblomma"},
-{"name": "Strandranunkel"},
-{"name": "Tiggarranunkel"},
-{"name": "Vattenmöja"},
-
-]},{"name": "Rutasläktet",
-"children": [
-{"name": "Sippruta"},
-
-]},
-]},{"name": "Vallmoväxter",
-"children": [
-{"name": "Vallmosläktet",
-"children": [
-{"name": "Kornvallmo"},
-
-]},
-]},
-]},{"name": "Sparrisordningen",
-"children": [
-{"name": "Afodillväxter",
-"children": [
-{"name": "Aloesläktet",
-"children": [
-{"name": "Kapaloe"},
-
-]},{"name": "Junkerliljesläktet",
-"children": [
-{"name": "Junkerlilja"},
-
-]},
-]},{"name": "Agaveväxter",
-"children": [
-{"name": "Ampelliljesläktet",
-"children": [
-{"name": "Ampellilja"},
-
-]},
-]},{"name": "Amaryllisväxter",
-"children": [
-{"name": "Löksläktet",
-"children": [
-{"name": "Backlök"},
-{"name": "Gräslök"},
-{"name": "Kanadalök"},
-{"name": "Kinesisk Gräslök"},
-{"name": "Kvicklök"},
-{"name": "Matlök",
-"children": [
-{"name": "Gullök"},
-
-]},{"name": "Praktlök"},
-{"name": "Purjolök"},
-{"name": "Ramslök"},
-{"name": "Sandlök"},
-{"name": "Schalottenlök"},
-{"name": "Sloklök"},
-{"name": "Vinlök"},
-{"name": "Vitlök"},
-
-]},
-]},{"name": "Dagliljeväxter",
-"children": [
-{"name": "Dagliljesläktet",
-"children": [
-{"name": "Brunröd Daglilja"},
-{"name": "Gul Daglilja"},
-{"name": "Liten Daglilja"},
-
-]},
-]},{"name": "Irisväxter",
-"children": [
-{"name": "Krokussläktet",
-"children": [
-{"name": "Saffranskrokus"},
-
-]},
-]},{"name": "Orkidéer",
-"children": [
-{"name": "Calypso",
-"children": [
-{"name": "Norna"},
-
-]},{"name": "Vaniljsläktet",
-"children": [
-{"name": "Vanilj"},
-
-]},
-]},{"name": "Sparrisväxter",
-"children": [
-{"name": "Agavesläktet",
-"children": [
-{"name": "Agave"},
-{"name": "Tuberos"},
-
-]},{"name": "Funkiasläktet",
-"children": [
-{"name": "Daggfunkia"},
-{"name": "Doftfunkia"},
-{"name": "Höstfunkia"},
-{"name": "Klockfunkia"},
-
-]},{"name": "Hyacinter",
-"children": [
-{"name": "Hyacint"},
-
-]},{"name": "Kordylinesläktet",
-"children": [
-{"name": "Syddracena"},
-
-]},{"name": "Leopoldia",
-"children": [
-{"name": "Fjäderhyacint"},
-
-]},{"name": "Palmliljesläktet",
-"children": [
-{"name": "Fiberpalmlilja"},
-
-]},{"name": "Pärlhyacintssläktet",
-"children": [
-{"name": "Mörk Pärlhyacint"},
-{"name": "Pärlhyacint"},
-
-]},{"name": "Sparrissläktet",
-"children": [
-{"name": "Sparris",
-"children": [
-{"name": "Grön sparris"},
-{"name": "Vit sparris"},
-
-]},
-]},{"name": "Stjärnlökar",
-"children": [
-{"name": "Morgonstjärna"},
-{"name": "Spansk Stjärnlök"},
-
-]},
-]},{"name": "Trådliljeväxter",
-"children": [
-{"name": "Kordylinesläktet",
-"children": [
-{"name": "Bloddracena"},
-
-]},
-]},
-]},{"name": "Svaltingordningen",
-"children": [
-{"name": "Blomvassväxter",
-"children": [
-{"name": "Butomus",
-"children": [
-{"name": "Blomvass"},
-
-]},
-]},{"name": "Kallaväxter",
-"children": [
-{"name": "Guldkolvssläktet",
-"children": [
-{"name": "Guldkolv"},
-
-]},{"name": "Knölkallasläktet",
-"children": [
-{"name": "Konjakknölkalla"},
-
-]},{"name": "Missnesläktet",
-"children": [
-{"name": "Missne"},
-
-]},{"name": "Monsterasläktet",
-"children": [
-{"name": "Monstera"},
-
-]},{"name": "Musselblomssläktet",
-"children": [
-{"name": "Musselblomma"},
-
-]},{"name": "Skunkkallasläktet",
-"children": [
-{"name": "Skunkkalla"},
-
-]},{"name": "Tarosläktet",
-"children": [
-{"name": "Taro"},
-
-]},
-]},{"name": "Sältingväxter",
-"children": [
-{"name": "Sältingar",
-"children": [
-{"name": "Havssälting"},
-
-]},
-]},{"name": "Svaltingväxter",
-"children": [
-{"name": "Pilbladssläktet",
-"children": [
-{"name": "Bredpilblad"},
-{"name": "Gräspilblad"},
-
-]},{"name": "Svaltingsläktet",
-"children": [
-{"name": "Svalting"},
-
-]},
-]},
-]},
-]},{"name": "Magnoliider",
-"children": [
-{"name": "Lagerordningen",
-"children": [
-{"name": "Boldoväxter",
-"children": [
-{"name": "Peumus",
-"children": [
-{"name": "Boldo"},
-
-]},
-]},{"name": "Lagerväxter",
-"children": [
-{"name": "Avokadosläktet",
-"children": [
-{"name": "Avokado"},
-
-]},{"name": "Kanelsläktet",
-"children": [
-{"name": "Ceylonkanel"},
-{"name": "Kamferträd"},
-{"name": "Kassiakanel"},
-
-]},{"name": "Lagersläktet",
-"children": [
-{"name": "Lager"},
-
-]},{"name": "Sassafrassläktet",
-"children": [
-{"name": "Sassafras"},
-
-]},
-]},
-]},{"name": "Magnoliaordningen",
-"children": [
-{"name": "Kirimojaväxter",
-"children": [
-{"name": "Annonasläktet",
-"children": [
-{"name": "Kirimoja"},
-{"name": "Sockerannona"},
-
-]},
-]},{"name": "Magnoliaväxter",
-"children": [
-{"name": "Magnoliasläktet",
-"children": [
-{"name": "Japansk Magnolia"},
-{"name": "Kungsmagnolia"},
-{"name": "Virginiamagnolia"},
-
-]},
-]},{"name": "Muskotväxter",
-"children": [
-{"name": "Muskotsläktet",
-"children": [
-{"name": "Muskot"},
-
-]},
-]},
-]},{"name": "Pepparordningen",
-"children": [
-{"name": "Ödlesvansväxter",
-"children": [
-{"name": "Sippsvanssläktet",
-"children": [
-{"name": "Sippsvans"},
-
-]},
-]},{"name": "Pepparväxter",
-"children": [
-{"name": "Peperomior",
-"children": [
-{"name": "Ogräspeperomia"},
-
-]},{"name": "Piper",
-"children": [
-{"name": "Långpeppar"},
-{"name": "Pepparplanta",
-"children": [
-{"name": "Grönpeppar"},
-{"name": "Svartpeppar"},
-{"name": "Vitpeppar"},
-
-]},
-]},
-]},{"name": "Piprankeväxter",
-"children": [
-{"name": "Hasselörtssläktet",
-"children": [
-{"name": "Kanadensisk hasselört"},
-
-]},
-]},
-]},
-]},{"name": "Trikolpater",
-"children": [
-{"name": "Araliaordningen",
-"children": [
-{"name": "Araliaväxter",
-"children": [
-{"name": "Araliasläktet",
-"children": [
-{"name": "Kryparalia"},
-{"name": "Lundaralia"},
-{"name": "Parkaralia"},
-{"name": "Taggaralia"},
-
-]},{"name": "Ginsengsläktet",
-"children": [
-{"name": "Amerikansk Ginseng"},
-
-]},
-]},{"name": "Flockblommiga Växter",
-"children": [
-{"name": "Ajowaner",
-"children": [
-{"name": "Ajowan"},
-
-]},{"name": "Bockrötter",
-"children": [
-{"name": "Anis"},
-
-]},{"name": "Dillsläktet",
-"children": [
-{"name": "Dill"},
-
-]},{"name": "Fänkålsläktet",
-"children": [
-{"name": "Fänkål"},
-
-]},{"name": "Jordkastanjer",
-"children": [
-{"name": "Jordkastanj"},
-
-]},{"name": "Kirskålssläktet",
-"children": [
-{"name": "Kirskål"},
-
-]},{"name": "Koriandrar",
-"children": [
-{"name": "Koriander"},
-
-]},{"name": "Kryptotenior",
-"children": [
-{"name": "Kanadapersilja"},
-
-]},{"name": "Kumminsläktet",
-"children": [
-{"name": "Kummin"},
-
-]},{"name": "Kvannesläktet",
-"children": [
-{"name": "Kvanne"},
-{"name": "Strätta"},
-
-]},{"name": "Libbstickor",
-"children": [
-{"name": "Libbsticka"},
-
-]},{"name": "Lokasläktet",
-"children": [
-{"name": "Björnloka"},
-{"name": "Tromsöloka"},
-
-]},{"name": "Martornssläktet",
-"children": [
-{"name": "Fältmartorn"},
-{"name": "Martorn"},
-{"name": "Rysk Martorn"},
-
-]},{"name": "Morotssläktet",
-"children": [
-{"name": "Morot"},
-{"name": "Vildmorot"},
-
-]},{"name": "Palsternackssläktet",
-"children": [
-{"name": "Palsternacka"},
-
-]},{"name": "Persiljesläktet",
-"children": [
-{"name": "Persilja"},
-
-]},{"name": "Sellerier",
-"children": [
-{"name": "Selleri",
-"children": [
-{"name": "Bladselleri"},
-{"name": "Blekselleri"},
-{"name": "Rotselleri"},
-
-]},
-]},{"name": "Småkörvelsläktet",
-"children": [
-{"name": "Dansk Körvel"},
-
-]},{"name": "Småkörvlar",
-"children": [
-{"name": "Hundkäx"},
-
-]},{"name": "Spanskkörvlar",
-"children": [
-{"name": "Spansk Körvel"},
-
-]},{"name": "Spiskumminsläktet",
-"children": [
-{"name": "spiskummin"},
-
-]},{"name": "Strandsiljor",
-"children": [
-{"name": "Strandsilja"},
-
-]},{"name": "Vinglokor",
-"children": [
-{"name": "Alexanderloka"},
-
-]},
-]},
-]},{"name": "Ärtordningen",
-"children": [
-{"name": "Ärtväxter",
-"children": [
-{"name": "Albiziasläktet",
-"children": [
-{"name": "Silkesträd"},
-
-]},{"name": "Apios",
-"children": [
-{"name": "Potatisböna"},
-
-]},{"name": "Ärtsläktet",
-"children": [
-{"name": "Ärt",
-"children": [
-{"name": "Gråärt"},
-{"name": "Sockerärt"},
-
-]},
-]},{"name": "Ärttörnesläktet",
-"children": [
-{"name": "Ärttörne"},
-
-]},{"name": "Bauhiniasläktet",
-"children": [
-{"name": "Orkidébauhinia"},
-
-]},{"name": "Blåregnssläktet",
-"children": [
-{"name": "Blåregn"},
-
-]},{"name": "Bönsläktet",
-"children": [
-{"name": "Böna"},
-{"name": "Limaböna"},
-{"name": "Rosenböna"},
-
-]},{"name": "Dipteryx",
-"children": [
-{"name": "Tonkaböna"},
-
-]},{"name": "Duvärtssläktet",
-"children": [
-{"name": "Duvärt"},
-
-]},{"name": "Jamsbönrotssläktet",
-"children": [
-{"name": "Jamsbönrot"},
-
-]},{"name": "Johannesbrödssläktet",
-"children": [
-{"name": "Johannesbröd"},
-
-]},{"name": "Jordnötssläktet",
-"children": [
-{"name": "Jordnöt"},
-
-]},{"name": "Judasträdssläktet",
-"children": [
-{"name": "Amerikanskt Judasträd"},
-{"name": "Judasträd"},
-
-]},{"name": "Kentuckykaffesläktet",
-"children": [
-{"name": "Kentuckykaffe"},
-
-]},{"name": "Kikärtor",
-"children": [
-{"name": "Kikärt"},
-
-]},{"name": "Klöversläktet",
-"children": [
-{"name": "Alsikeklöver"},
-{"name": "Blodklöver"},
-{"name": "Rödklöver"},
-{"name": "Trådklöver"},
-{"name": "Vitklöver"},
-
-]},{"name": "Korallbusksläktet",
-"children": [
-{"name": "Indiskt korallträd"},
-
-]},{"name": "Kudzubönssläktet",
-"children": [
-{"name": "Kudzuböna"},
-
-]},{"name": "Lakritsrotssläktet",
-"children": [
-{"name": "Lakritsrot"},
-
-]},{"name": "Luserner",
-"children": [
-{"name": "Foderlusern",
-"children": [
-{"name": "Alfalfa"},
-
-]},
-]},{"name": "Lusernsläktet",
-"children": [
-{"name": "Humlelusern"},
-
-]},{"name": "Robiniasläktet",
-"children": [
-{"name": "Rosenrobinia"},
-
-]},{"name": "Sojabönssläktet",
-"children": [
-{"name": "Sojaböna"},
-
-]},{"name": "Sötväpplingssläktet",
-"children": [
-{"name": "Dvärgsötväppling"},
-{"name": "Gul Sötväppling"},
-{"name": "Vit Sötväppling"},
-
-]},{"name": "Tamarindsläktet",
-"children": [
-{"name": "Tamarind"},
-
-]},{"name": "Trigonellor",
-"children": [
-{"name": "Bockhornsklöver"},
-
-]},{"name": "Vialsläktet",
-"children": [
-{"name": "Gökärt"},
-{"name": "Knölvial"},
-
-]},{"name": "Vickersläktet",
-"children": [
-{"name": "Bondböna"},
-{"name": "Fodervicker"},
-{"name": "Gotlandslins"},
-
-]},{"name": "Vignabönsläktet",
-"children": [
-{"name": "Urdböna"},
-
-]},{"name": "Vignabönssläktet",
-"children": [
-{"name": "Azukiböna"},
-{"name": "Mungböna"},
-{"name": "Ögonböna"},
-
-]},{"name": "Faboideae",
-"children": [
-{"name": "Robinieae",
-"children": [
-{"name": "Robiniasläktet",
-"children": [
-{"name": "Robinia"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Asterordningen",
-"children": [
-{"name": "Asterväxter",
-"children": [
-{"name": "Solrosor",
-"children": [
-{"name": "Hamnsolros"},
-
-]},{"name": "Vitknappssläktet",
-"children": [
-{"name": "Vitknapp"},
-
-]},
-]},{"name": "Klockväxter",
-"children": [
-{"name": "Blåklockssläktet",
-"children": [
-{"name": "Knölklocka"},
-{"name": "Rapunkelklocka"},
-{"name": "Toppklocka"},
-
-]},{"name": "Praktklockor",
-"children": [
-{"name": "Praktklocka"},
-
-]},
-]},{"name": "Korgblommiga växter",
-"children": [
-{"name": "Ambrosior",
-"children": [
-{"name": "Dillambrosia"},
-{"name": "Hästambrosia"},
-
-]},{"name": "Bellissläktet",
-"children": [
-{"name": "Tusensköna"},
-
-]},{"name": "Binkasläktet",
-"children": [
-{"name": "Kanadabinka"},
-{"name": "Sommarbinka"},
-
-]},{"name": "Cikorior",
-"children": [
-{"name": "Cikoria"},
-
-]},{"name": "Gänglar",
-"children": [
-{"name": "Gängel"},
-
-]},{"name": "Gullrissläktet",
-"children": [
-{"name": "Gullris"},
-{"name": "Kanadensiskt Gullris"},
-
-]},{"name": "Harkålssläktet",
-"children": [
-{"name": "Harkål"},
-
-]},{"name": "Haverrotssläktet",
-"children": [
-{"name": "Äkta Haverrot"},
-{"name": "Ängshaverrot"},
-{"name": "Stor Haverrot"},
-
-]},{"name": "Höstastrar (Växter)",
-"children": [
-{"name": "Luktaster"},
-
-]},{"name": "Kamomiller",
-"children": [
-{"name": "Gatkamomill"},
-{"name": "Kamomill"},
-
-]},{"name": "Kardborresläktet",
-"children": [
-{"name": "Liten kardborre"},
-{"name": "Lundkardborre"},
-{"name": "Stor Kardborre"},
-{"name": "Ullkardborre"},
-
-]},{"name": "Klintsläktet",
-"children": [
-{"name": "Svartklint"},
-
-]},{"name": "Klofibblor",
-"children": [
-{"name": "Borstfibbla"},
-{"name": "Grönfibbla"},
-{"name": "Klofibbla"},
-
-]},{"name": "Krisslesläktet",
-"children": [
-{"name": "Ålandsrot"},
-
-]},{"name": "Kronärtskockssläktet",
-"children": [
-{"name": "Kardon",
-"children": [
-{"name": "Kronärtskocka"},
-
-]},
-]},{"name": "Krysantemumsläktet",
-"children": [
-{"name": "Krysantemum"},
-
-]},{"name": "Kullasläktet",
-"children": [
-{"name": "Kamomillkulla"},
-
-]},{"name": "Malörtssläktet",
-"children": [
-{"name": "Dragon"},
-{"name": "Gråbo"},
-{"name": "Malört"},
-
-]},{"name": "Mariatistelsläktet",
-"children": [
-{"name": "Mariatistelsläktet"},
-
-]},{"name": "Molkesläktet",
-"children": [
-{"name": "Åkermolke"},
-{"name": "Kålmolke"},
-{"name": "Svinmolke"},
-
-]},{"name": "Pärleterneller",
-"children": [
-{"name": "Pärleternell"},
-
-]},{"name": "Porophyllum",
-"children": [
-{"name": "Boliviansk Koriander"},
-
-]},{"name": "Prästkragesläktet",
-"children": [
-{"name": "Prästkrage"},
-
-]},{"name": "Renfanesläktet",
-"children": [
-{"name": "Renfana"},
-
-]},{"name": "Röllikesläktet",
-"children": [
-{"name": "Praktröllika"},
-{"name": "Röllika"},
-
-]},{"name": "Romarkamomiller",
-"children": [
-{"name": "Romersk Kamomill"},
-
-]},{"name": "Rosenskäresläktet",
-"children": [
-{"name": "Rosenskära"},
-
-]},{"name": "Rosettfibblor",
-"children": [
-{"name": "Åkerfibbla"},
-{"name": "Rotfibbla"},
-
-]},{"name": "Rudbeckiasläktet",
-"children": [
-{"name": "Höstrudbeckia"},
-
-]},{"name": "Safflorsläktet",
-"children": [
-{"name": "Safflor"},
-
-]},{"name": "Sallatsläktet",
-"children": [
-{"name": "Giftsallat"},
-{"name": "Sallat",
-"children": [
-{"name": "Sallat"},
-{"name": "Woju"},
-
-]},{"name": "Skogssallat"},
-{"name": "Taggsallat"},
-
-]},{"name": "Sammetsblomstersläktet",
-"children": [
-{"name": "Glanstagetes"},
-{"name": "Stort Sammetsblomster"},
-
-]},{"name": "Skäror",
-"children": [
-{"name": "Brunskära"},
-{"name": "Grönskära"},
-{"name": "Nickskära"},
-
-]},{"name": "Skråpsläktet",
-"children": [
-{"name": "Fjällskråp"},
-
-]},{"name": "Smallanthus",
-"children": [
-{"name": "Yacón"},
-
-]},{"name": "Solrossläktet",
-"children": [
-{"name": "Jordärtskocka"},
-{"name": "Solros"},
-{"name": "Strävsolros"},
-
-]},{"name": "Stångfibblesläktet",
-"children": [
-{"name": "Rödfibbla"},
-
-]},{"name": "Strandastrar",
-"children": [
-{"name": "Strandaster"},
-
-]},{"name": "Svinrötter",
-"children": [
-{"name": "Svartrot"},
-
-]},{"name": "Tistelsläktet",
-"children": [
-{"name": "Åkertistel"},
-{"name": "Vägtistel"},
-
-]},{"name": "Ulltistelsläktet",
-"children": [
-{"name": "Ulltistel"},
-
-]},
-]},
-]},{"name": "Bokordningen",
-"children": [
-{"name": "Björkväxter",
-"children": [
-{"name": "Björksläktet",
-"children": [
-{"name": "Pappersbjörk"},
-{"name": "Vårtbjörk"},
-
-]},{"name": "Hasslar",
-"children": [
-{"name": "Amerikansk näbbhassel"},
-{"name": "Hassel"},
-
-]},
-]},{"name": "Bokväxter",
-"children": [
-{"name": "Boksläktet",
-"children": [
-{"name": "Bok"},
-
-]},{"name": "Ekar",
-"children": [
-{"name": "Ek"},
-
-]},{"name": "Eksläktet",
-"children": [
-{"name": "Rödek"},
-{"name": "Vitek"},
-
-]},{"name": "Kastanjesläktet",
-"children": [
-{"name": "Äkta Kastanj"},
-
-]},
-]},{"name": "Porsväxter",
-"children": [
-{"name": "Porssläktet",
-"children": [
-{"name": "Pors"},
-
-]},
-]},{"name": "Valnötsväxter",
-"children": [
-{"name": "Hickorysläktet",
-"children": [
-{"name": "Pekanträd"},
-{"name": "Skidhickory"},
-
-]},{"name": "Valnötssläktet",
-"children": [
-{"name": "Grå Valnöt"},
-{"name": "Svart Valnöt"},
-{"name": "Valnöt"},
-
-]},
-]},
-]},{"name": "Förgätmigejordningen",
-"children": [
-{"name": "Förgätmigejväxter",
-"children": [
-{"name": "Snokörtssläktet",
-"children": [
-{"name": "Blåeld"},
-
-]},
-]},{"name": "Strävbladiga Växter",
-"children": [
-{"name": "Fjärvesläktet",
-"children": [
-{"name": "Ostronört"},
-{"name": "Pärlemorfjärva"},
-
-]},{"name": "Förgätmigejsläktet",
-"children": [
-{"name": "Åkerförgätmigej"},
-{"name": "Förgätmigej"},
-
-]},{"name": "Gurkörter",
-"children": [
-{"name": "Gurkört"},
-
-]},{"name": "Indiankålssläktet",
-"children": [
-{"name": "Grenig Indiankål"},
-
-]},{"name": "Oxtungor",
-"children": [
-{"name": "Oxtunga"},
-
-]},{"name": "Vallörtssläktet",
-"children": [
-{"name": "Äkta Vallört"},
-
-]},
-]},
-]},{"name": "Gentianaordningen",
-"children": [
-{"name": "Måreväxter",
-"children": [
-{"name": "Gardeniasläktet",
-"children": [
-{"name": "Gardenia"},
-
-]},{"name": "Kaffesläktet",
-"children": [
-{"name": "Arabiskt kaffe"},
-{"name": "Arabustakaffe"},
-{"name": "Robustakaffe"},
-
-]},{"name": "Måresläktet",
-"children": [
-{"name": "Gulmåra"},
-{"name": "Myskmadra"},
-{"name": "Myskmåra"},
-{"name": "Småsnärjmåra"},
-{"name": "Snärjmåra"},
-{"name": "Stormåra"},
-{"name": "Vitmåra"},
-
-]},
-]},{"name": "Oleanderväxter",
-"children": [
-{"name": "Sidenörtssläktet",
-"children": [
-{"name": "Rosensidenört"},
-{"name": "Sidenört"},
-
-]},
-]},
-]},{"name": "Gurkordningen",
-"children": [
-{"name": "Gurkväxter",
-"children": [
-{"name": "Flaskkurbitssläktet",
-"children": [
-{"name": "Flaskkurbits"},
-
-]},{"name": "Gurksläktet",
-"children": [
-{"name": "Anguriagurka"},
-{"name": "Gurka"},
-{"name": "Melon",
-"children": [
-{"name": "Honungsmelon"},
-{"name": "Nätmelon"},
-
-]},
-]},{"name": "Melotgurksläktet",
-"children": [
-{"name": "Djungelgurka"},
-
-]},{"name": "Momordica",
-"children": [
-{"name": "Bittergurka"},
-
-]},{"name": "Pumpasläktet",
-"children": [
-{"name": "Butternutpumpa"},
-{"name": "Jättepumpa"},
-
-]},{"name": "Vattenmelonssläktet",
-"children": [
-{"name": "Vattenmelon"},
-
-]},
-]},
-]},{"name": "Harsyreordningen",
-"children": [
-{"name": "Harsyreväxter",
-"children": [
-{"name": "Averrhoa",
-"children": [
-{"name": "Carambola"},
-
-]},{"name": "Oxalisar",
-"children": [
-{"name": "Blodoxalis"},
-{"name": "Harsyra"},
-{"name": "Klöveroxalis"},
-{"name": "Lökoxalis"},
-{"name": "Lyckoklöver"},
-{"name": "Oca"},
-{"name": "Triangeloxalis"},
-
-]},
-]},
-]},{"name": "Järneksordningen",
-"children": [
-{"name": "Järneksväxter",
-"children": [
-{"name": "Järnekssläktet",
-"children": [
-{"name": "Järnek"},
-
-]},
-]},
-]},{"name": "Kålordningen",
-"children": [
-{"name": "Caricaceae",
-"children": [
-{"name": "Carica",
-"children": [
-{"name": "Papaya"},
-
-]},
-]},{"name": "Korsblommiga Växter",
-"children": [
-{"name": "Bräsmesläktet",
-"children": [
-{"name": "Ängsbräsma"},
-{"name": "Bergbräsma"},
-
-]},{"name": "Crambe",
-"children": [
-{"name": "Strandkål"},
-
-]},{"name": "Gyllnar",
-"children": [
-{"name": "Sommargyllen"},
-{"name": "Vårgyllen"},
-
-]},{"name": "Hesperissläktet",
-"children": [
-{"name": "Hesperis matronalis"},
-
-]},{"name": "Källfränen",
-"children": [
-{"name": "Källfräne"},
-
-]},{"name": "Kålsenaper",
-"children": [
-{"name": "Kålsenap"},
-
-]},{"name": "Kålsläktet",
-"children": [
-{"name": "Brassica rapa",
-"children": [
-{"name": "Majrova"},
-{"name": "Pak choi"},
-{"name": "Salladskål"},
-
-]},{"name": "Kål",
-"children": [
-{"name": "Blomkål"},
-{"name": "Brysselkål"},
-{"name": "Grönkål"},
-{"name": "Kålrabbi"},
-{"name": "Palmkål"},
-{"name": "Purpurkål"},
-{"name": "Rödkål"},
-{"name": "Romanesco"},
-{"name": "Savoykål"},
-{"name": "Spetskål"},
-{"name": "Svartkål"},
-{"name": "Vildkål"},
-{"name": "Vitkål"},
-
-]},{"name": "Medelhavskål"},
-{"name": "Raps"},
-{"name": "Rova",
-"children": [
-{"name": "Majrova"},
-
-]},{"name": "Sareptasenap"},
-{"name": "Svartsenap"},
-
-]},{"name": "Krassingar",
-"children": [
-{"name": "Bitterkrassing"},
-{"name": "Fältkrassing"},
-{"name": "Hamnkrassing"},
-{"name": "Kråkkrassing"},
-{"name": "Maca"},
-{"name": "Rundkrassing"},
-{"name": "Smörgåskrasse"},
-{"name": "Virginiakrassing"},
-
-]},{"name": "Lobularia",
-"children": [
-{"name": "Strandkrassing"},
-
-]},{"name": "Löktravar",
-"children": [
-{"name": "Löktrav"},
-
-]},{"name": "Lommar",
-"children": [
-{"name": "Lomme"},
-
-]},{"name": "Lövkojor",
-"children": [
-{"name": "Lövkoja"},
-
-]},{"name": "Marvioler",
-"children": [
-{"name": "Marviol"},
-
-]},{"name": "Pepparrötter",
-"children": [
-{"name": "Pepparrot"},
-
-]},{"name": "Rättikor",
-"children": [
-{"name": "Åkerrättika"},
-{"name": "Rädisa",
-"children": [
-{"name": "Rädisa"},
-{"name": "Rättika"},
-
-]},
-]},{"name": "Ryssgubbar",
-"children": [
-{"name": "Ryssgubbe"},
-
-]},{"name": "Senapssläktet",
-"children": [
-{"name": "Åkersenap"},
-{"name": "Vitsenap"},
-
-]},{"name": "Skärvfrön",
-"children": [
-{"name": "Backskärvfrö"},
-{"name": "Penningört"},
-
-]},{"name": "Skidörter",
-"children": [
-{"name": "Wasabi"},
-
-]},{"name": "Skörbjuggsörter",
-"children": [
-{"name": "Skörbjuggsört"},
-
-]},{"name": "Stillfrön",
-"children": [
-{"name": "Indianstillfrö"},
-
-]},{"name": "Travar",
-"children": [
-{"name": "Fjälltrav"},
-{"name": "Rockentrav"},
-
-]},
-]},{"name": "Krasseväxter",
-"children": [
-{"name": "Krassesläktet",
-"children": [
-{"name": "Indiankrasse"},
-
-]},
-]},
-]},{"name": "Kinesträdordningen",
-"children": [
-{"name": "Kinesträdsväxter",
-"children": [
-{"name": "Ballongrankor",
-"children": [
-{"name": "Ballongranka"},
-
-]},
-{"name": "Lönnsläktet",
-"children": [
-{"name": "Lönn"},
-{"name": "Silverlönn"},
-{"name": "Sockerlönn"},
-
-]},
-]},{"name": "Mahognyväxter",
-"children": [
-{"name": "Aglaia",
-"children": [
-{"name": "Kinabuxbomsträd"},
-
-]},{"name": "Azadirachta",
-"children": [
-{"name": "Nim-träd"},
-
-]},
-]},{"name": "Sumakväxter",
-"children": [
-{"name": "Cashewsläktet",
-"children": [
-{"name": "Cashew"},
-
-]},{"name": "Mangosläktet",
-"children": [
-{"name": "Mango"},
-
-]},{"name": "Pistacia",
-"children": [
-{"name": "Pistasch"},
-{"name": "Terebint"},
-
-]},{"name": "Schinus",
-"children": [
-{"name": "Brasilianskt Pepparträd"},
-
-]},{"name": "Sumaksläktet",
-"children": [
-{"name": "Bärsumak"},
-{"name": "Gallsumak"},
-{"name": "Korallsumak"},
-{"name": "Rönnsumak"},
-{"name": "Trädsumak"},
-
-]},
-]},{"name": "Vinruteväxter",
-"children": [
-{"name": "Citrussläktet",
-"children": [
-{"name": "Apelsin"},
-{"name": "Bergamott"},
-{"name": "Citron"},
-{"name": "Fingerlime"},
-{"name": "Grapefrukt"},
-{"name": "Lime"},
-{"name": "Mandarin"},
-{"name": "Minneola"},
-{"name": "Ökenlime"},
-{"name": "Pomerans"},
-{"name": "Suckatcitron",
-"children": [
-{"name": "Etrog"},
-{"name": "Suckatcitron"},
-
-]},{"name": "Tangerin"},
-{"name": "Yuzu"},
-
-]},{"name": "Limonia",
-"children": [
-{"name": "Elefantäpple"},
-
-]},{"name": "Marmeladträdssläktet",
-"children": [
-{"name": "Indiskt Marmeladträd"},
-
-]},{"name": "Vinrutesläktet",
-"children": [
-{"name": "Vinruta"},
-
-]},
-]},
-]},{"name": "Kornellordningen",
-"children": [
-{"name": "Kornellväxter",
-"children": [
-{"name": "Kornellsläktet",
-"children": [
-{"name": "Amerikanskt Hönsbär"},
-{"name": "Körsbärskornell"},
-
-]},
-]},
-]},{"name": "Ljungordningen",
-"children": [
-{"name": "Aktinidiaväxter",
-"children": [
-{"name": "Aktinidiasläktet",
-"children": [
-{"name": "Kiwi"},
-
-]},
-]},{"name": "Ardisiaväxter",
-"children": [
-{"name": "Strandkrypesläktet",
-"children": [
-{"name": "Strandkrypa"},
-
-]},
-]},{"name": "Balsaminväxter",
-"children": [
-{"name": "Balsaminsläktet",
-"children": [
-{"name": "Apelsinbalsamin"},
-{"name": "Flitiga Lisa"},
-{"name": "Jättebalsamin"},
-
-]},
-]},{"name": "Blågullsväxter",
-"children": [
-{"name": "Floxsläktet",
-"children": [
-{"name": "Höstflox"},
-
-]},
-]},{"name": "Ebenholtsväxter",
-"children": [
-{"name": "Diospyros",
-"children": [
-{"name": "Kaki"},
-{"name": "Persimon"},
-
-]},
-]},{"name": "Ljungväxter",
-"children": [
-{"name": "Finnmyrtensläktet",
-"children": [
-{"name": "Finnmyrten"},
-
-]},{"name": "Kråkbärssläktet",
-"children": [
-{"name": "Kråkbär"},
-
-]},{"name": "Ljungsläktet",
-"children": [
-{"name": "Ljung"},
-
-]},{"name": "Mjölonsläktet",
-"children": [
-{"name": "Mjölon"},
-
-]},{"name": "Odonsläktet",
-"children": [
-{"name": "Amerikanskt blåbär"},
-{"name": "Amerikanskt Tranbär"},
-{"name": "Blåbär"},
-{"name": "Blingon"},
-{"name": "Dvärgtranbär"},
-{"name": "lingon"},
-{"name": "Odon"},
-{"name": "Tranbär"},
-{"name": "Vaccinium Parvifolium"},
-
-]},{"name": "Roslingsläktet",
-"children": [
-{"name": "Rosling"},
-
-]},{"name": "Rylsläktet",
-"children": [
-{"name": "Ryl"},
-
-]},{"name": "Tallörtsläktet",
-"children": [
-{"name": "Tallört"},
-
-]},
-]},{"name": "Paranötsväxter",
-"children": [
-{"name": "Bertholletia",
-"children": [
-{"name": "Paranöt"},
-
-]},
-]},{"name": "Teväxter",
-"children": [
-{"name": "Kameliasläktet",
-"children": [
-{"name": "Te"},
-
-]},
-]},{"name": "Viveväxter",
-"children": [
-{"name": "Bungar",
-"children": [
-{"name": "Bunge"},
-
-]},{"name": "Miresläktet",
-"children": [
-{"name": "Rödmire"},
-
-]},{"name": "Vivesläktet",
-"children": [
-{"name": "Gullviva"},
-{"name": "Jordviva"},
-
-]},
-]},
-]},{"name": "Malpigiaordningen",
-"children": [
-{"name": "Johannesörtsväxter",
-"children": [
-{"name": "Johannesörtssläktet",
-"children": [
-{"name": "Johannesört"},
-
-]},
-]},{"name": "Linväxter",
-"children": [
-{"name": "Linsläktet",
-"children": [
-{"name": "Lin"},
-
-]},
-]},{"name": "Passionsblommeväxter",
-"children": [
-{"name": "Passionsblomssläktet",
-"children": [
-{"name": "Blå passionsblomma"},
-{"name": "Doftpassionsblomma"},
-{"name": "Guldgrenadill"},
-{"name": "Kardinalpassionsblomma"},
-{"name": "Läkepassionsblomma"},
-{"name": "Passionsfrukt"},
-{"name": "Sötgrenadill"},
-
-]},
-]},{"name": "Rhizophoraceae",
-"children": [
-{"name": "Rhizophora",
-"children": [
-{"name": "Amerikansk Mangrove"},
-
-]},
-]},{"name": "Törelväxter",
-"children": [
-{"name": "Manihot",
-"children": [
-{"name": "Maniok"},
-
-]},
-]},{"name": "Violväxter",
-"children": [
-{"name": "Violsläktet",
-"children": [
-{"name": "Åkerviol"},
-{"name": "Fjärilsviol"},
-{"name": "Luktviol"},
-{"name": "Styvmorsviol"},
-
-]},
-]},
-]},{"name": "Malvaordningen",
-"children": [
-{"name": "Malvaväxter",
-"children": [
-{"name": "Baobabsläktet",
-"children": [
-{"name": "Baobab"},
-
-]},{"name": "Durio",
-"children": [
-{"name": "Durian"},
-
-]},{"name": "Hibiskussläktet",
-"children": [
-{"name": "Blodhibiskus"},
-{"name": "Frilandshibiskus"},
-{"name": "Rosellhibiskus"},
-{"name": "Strandhibiskus"},
-
-]},{"name": "Kakaosläktet",
-"children": [
-{"name": "Kakao"},
-
-]},{"name": "Kapoksläktet",
-"children": [
-{"name": "Kapok"},
-
-]},{"name": "Klockmalvesläktet",
-"children": [
-{"name": "Klockmalva"},
-{"name": "Lindmalva"},
-{"name": "Lyktmalva"},
-
-]},{"name": "Läkemalvesläktet",
-"children": [
-{"name": "Läkemalva"},
-
-]},{"name": "Lindsläktet",
-"children": [
-{"name": "Lind"},
-{"name": "Parklind"},
-
-]},{"name": "Malvasläktet",
-"children": [
-{"name": "Myskmalva"},
-{"name": "Rödmalva"},
-{"name": "Rosenmalva"},
-{"name": "Skär Kattost"},
-
-]},{"name": "Okrasläktet",
-"children": [
-{"name": "Okra"},
-
-]},{"name": "Sammetsmalvesläktet",
-"children": [
-{"name": "Smalmalva"},
-
-]},{"name": "Sprötmalvor",
-"children": [
-{"name": "Sprötmalva"},
-
-]},{"name": "Stockrossläktet",
-"children": [
-{"name": "Stockros"},
-
-]},
-]},
-]},{"name": "Myrtenordningen",
-"children": [
-{"name": "Dunörtsväxter",
-"children": [
-{"name": "Mjölkesläktet",
-"children": [
-{"name": "Mjölke"},
-
-]},{"name": "Nattljussläktet",
-"children": [
-{"name": "Nattljus"},
-
-]},
-]},{"name": "Fackelblomsväxter",
-"children": [
-{"name": "Fackelblomstersläktet",
-"children": [
-{"name": "Fackelblomster"},
-
-]},
-]},{"name": "Myrtenväxter",
-"children": [
-{"name": "Eugeniamyrtensläktet",
-"children": [
-{"name": "Eugenia Uniflora"},
-
-]},{"name": "Guavasläktet",
-"children": [
-{"name": "Guava"},
-{"name": "Smultronguava"},
-
-]},{"name": "Kryddnejliksläktet",
-"children": [
-{"name": "Javaäpple"},
-{"name": "Kryddnejlika"},
-{"name": "Rosenäpple"},
-
-]},{"name": "Lampborstsläktet",
-"children": [
-{"name": "Lampborste"},
-
-]},
-]},
-]},{"name": "Näveordningen",
-"children": [
-{"name": "Näveväxter",
-"children": [
-{"name": "Nävesläktet",
-"children": [
-{"name": "Kvarnnäva"},
-{"name": "Stinknäva"},
-
-]},{"name": "Skatnävor",
-"children": [
-{"name": "Mysknäva"},
-{"name": "Skatnäva"},
-
-]},
-]},
-]},{"name": "Nejlikordningen",
-"children": [
-{"name": "Amarantväxter",
-"children": [
-{"name": "Amarantsläktet",
-"children": [
-{"name": "Blodamarant"},
-{"name": "Grönamarant"},
-{"name": "Kvarnamarant"},
-{"name": "Mållamarant"},
-{"name": "Papegojamarant"},
-{"name": "Rävsvans"},
-{"name": "Smalamarant"},
-{"name": "Svinamarant"},
-{"name": "Taggamarant"},
-{"name": "Toppamarant"},
-
-]},{"name": "Betor",
-"children": [
-{"name": "Beta",
-"children": [
-{"name": "Mangold"},
-{"name": "Polkabeta"},
-{"name": "Rödbeta"},
-{"name": "Strandbeta"},
-
-]},
-]},{"name": "Celosior",
-"children": [
-{"name": "Plymört"},
-
-]},{"name": "Doftmållor",
-"children": [
-{"name": "Citronmålla"},
-
-]},{"name": "Fetmållor",
-"children": [
-{"name": "Spjutmålla"},
-{"name": "Trädgårdsmålla"},
-{"name": "Tuppkamsmålla"},
-{"name": "Vägmålla"},
-
-]},{"name": "Flottmållor",
-"children": [
-{"name": "Bymålla"},
-
-]},{"name": "Fruktmållor",
-"children": [
-{"name": "Lungrot"},
-{"name": "Smultronmålla"},
-
-]},{"name": "Glasörter",
-"children": [
-{"name": "Glasört"},
-
-]},{"name": "Halimione",
-"children": [
-{"name": "Portlakmålla"},
-
-]},{"name": "Kochia",
-"children": [
-{"name": "Kvastmålla"},
-
-]},{"name": "Mållor",
-"children": [
-{"name": "Blåmålla"},
-{"name": "Druvmålla"},
-{"name": "Fikonmålla"},
-{"name": "Rödmålla"},
-{"name": "Svinmålla"},
-{"name": "Texasmålla"},
-
-]},{"name": "Ogräsmållor",
-"children": [
-{"name": "Canihua"},
-{"name": "Quinoa"},
-
-]},{"name": "Rankspenater",
-"children": [
-{"name": "Rankspenat"},
-
-]},{"name": "Sodaörtssläktet",
-"children": [
-{"name": "Sodaört"},
-
-]},{"name": "Spenater",
-"children": [
-{"name": "Spenat"},
-
-]},
-]},{"name": "Isörtsväxter",
-"children": [
-{"name": "Isörtssläktet",
-"children": [
-{"name": "Isört"},
-
-]},{"name": "Middagsblommor",
-"children": [
-{"name": "Gul Middagsblomma"},
-
-]},
-]},{"name": "Kaktusväxter",
-"children": [
-{"name": "Kochenillkaktusar",
-"children": [
-{"name": "Kochenillkaktus"},
-
-]},{"name": "Nattkaktussläktet",
-"children": [
-{"name": "Röd Pitahaya"},
-
-]},{"name": "Opuntiasläktet",
-"children": [
-{"name": "Fikonkaktus"},
-{"name": "Krypopuntia"},
-
-]},{"name": "Pelarkaktussläktet",
-"children": [
-{"name": "Klippkaktus"},
-
-]},{"name": "Saguarokaktussläktet",
-"children": [
-{"name": "Saguarokaktus"},
-
-]},{"name": "Tallkottskaktussläktet",
-"children": [
-{"name": "Tallkottskaktus"},
-
-]},
-]},{"name": "Källörtsväxter",
-"children": [
-{"name": "Vårskönor",
-"children": [
-{"name": "Vårsköna"},
-{"name": "Vinterportlak"},
-
-]},
-]},{"name": "Kermesbärsväxter",
-"children": [
-{"name": "Kermesbärssläktet",
-"children": [
-{"name": "Amerikanskt kermesbär"},
-
-]},
-]},{"name": "Kransörtsväxter",
-"children": [
-{"name": "Kransörter",
-"children": [
-{"name": "Kransört"},
-
-]},
-]},{"name": "Malabarspenatväxter",
-"children": [
-{"name": "Madeirarankor",
-"children": [
-{"name": "Madeiraranka"},
-
-]},
-]},{"name": "Nejlikväxter",
-"children": [
-{"name": "Glimsläktet",
-"children": [
-{"name": "Rödblära"},
-{"name": "Smällglim"},
-{"name": "Vitblära"},
-
-]},{"name": "Nejliksläktet",
-"children": [
-{"name": "Borstnejlika"},
-{"name": "Fjädernejlika"},
-
-]},{"name": "Saltarvar",
-"children": [
-{"name": "Saltarv"},
-
-]},{"name": "Stjärnblommor",
-"children": [
-{"name": "Våtarv"},
-
-]},
-]},{"name": "Portlakväxter",
-"children": [
-{"name": "Portlaker",
-"children": [
-{"name": "Portlak"},
-
-]},
-]},{"name": "Sileshårsväxter",
-"children": [
-{"name": "Sileshårssläktet",
-"children": [
-{"name": "Rundsileshår"},
-
-]},
-]},{"name": "Slideväxter",
-"children": [
-{"name": "Bindor",
-"children": [
-{"name": "Jätteslide"},
-
-]},{"name": "Boveten",
-"children": [
-{"name": "Bovete"},
-
-]},{"name": "Fjällsyror",
-"children": [
-{"name": "Fjällsyra"},
-
-]},{"name": "Jättesliden",
-"children": [
-{"name": "Parkslide"},
-
-]},{"name": "Klättersiden",
-"children": [
-{"name": "Rosensky"},
-
-]},{"name": "Ormrötter",
-"children": [
-{"name": "Ormrot"},
-
-]},{"name": "Pilörter",
-"children": [
-{"name": "Bitterpilört"},
-{"name": "Vattenpilört"},
-
-]},{"name": "Rabarbrar",
-"children": [
-{"name": "Rabarber"},
-
-]},{"name": "Skräppsläktet",
-"children": [
-{"name": "Alpskräppa"},
-{"name": "Ängssyra"},
-{"name": "Bergsyra"},
-{"name": "Dikesskräppa"},
-{"name": "Gårdsskräppa"},
-{"name": "Hästskräppa"},
-{"name": "Krusskräppa"},
-{"name": "Skogsskräppa"},
-{"name": "Skönskräppa"},
-{"name": "Spenatskräppa"},
-{"name": "Strandskräppa"},
-{"name": "Tomtskräppa"},
-{"name": "Trädgårdssyra"},
-{"name": "Ungersk Skräppa"},
-{"name": "Violskräppa"},
-
-]},{"name": "Trampörter",
-"children": [
-{"name": "Trampört"},
-
-]},
-]},
-]},{"name": "Plisterordningen",
-"children": [
-{"name": "Flenörtsväxter",
-"children": [
-{"name": "Kungsljussläktet",
-"children": [
-{"name": "Kungsljus"},
-
-]},
-]},{"name": "Grobladsväxter",
-"children": [
-{"name": "Grobladssläktet",
-"children": [
-{"name": "Groblad"},
-{"name": "Gulkämpar"},
-{"name": "Rödkämpar"},
-{"name": "Strandkämpar"},
-{"name": "Svartkämpar"},
-{"name": "Vallkämpar"},
-
-]},{"name": "Hästsvansar",
-"children": [
-{"name": "Hästsvans"},
-
-]},{"name": "Lejongapssläktet",
-"children": [
-{"name": "Lejongap"},
-
-]},{"name": "Sporresläktet",
-"children": [
-{"name": "Gulsporre"},
-
-]},{"name": "Tjockbladssläktet",
-"children": [
-{"name": "Tjockblad"},
-
-]},{"name": "Veronikasläktet",
-"children": [
-{"name": "Bäckveronika"},
-{"name": "Trädgårdsveronika"},
-
-]},
-]},{"name": "Katalpaväxter",
-"children": [
-{"name": "Korvträdssläktet",
-"children": [
-{"name": "Korvträd"},
-
-]},
-]},{"name": "Plisterväxter",
-"children": [
-{"name": "Anisisopar",
-"children": [
-{"name": "Anisisop"},
-{"name": "Nässelisop"},
-
-]},{"name": "Basilikor",
-"children": [
-{"name": "Basilika",
-"children": [
-{"name": "Basilika"},
-{"name": "Thaibasilika"},
-
-]},
-]},{"name": "Bergmyntor",
-"children": [
-{"name": "Bergmynta"},
-
-]},{"name": "Citronmeliss-släktet",
-"children": [
-{"name": "Citronmeliss"},
-
-]},{"name": "Glasbärssläktet",
-"children": [
-{"name": "Glasbär"},
-
-]},{"name": "Harmyntor",
-"children": [
-{"name": "Sommarkyndel"},
-{"name": "Vinterkyndel"},
-
-]},{"name": "Hjärtstillor",
-"children": [
-{"name": "Hjärtstilla"},
-
-]},{"name": "Isopar",
-"children": [
-{"name": "Isop"},
-
-]},{"name": "Jordrevesläktet",
-"children": [
-{"name": "Jordreva"},
-
-]},{"name": "Lavendelsläktet",
-"children": [
-{"name": "Lavendel"},
-
-]},{"name": "Mejramsläktet",
-"children": [
-{"name": "Mejram"},
-{"name": "Oregano"},
-
-]},{"name": "Myntasläktet",
-"children": [
-{"name": "Åkermynta"},
-{"name": "Grönmynta"},
-{"name": "Pepparmynta"},
-{"name": "Vattenmynta"},
-
-]},{"name": "Nepetasläktet",
-"children": [
-{"name": "Bergnepeta"},
-{"name": "Blånepeta"},
-{"name": "Kattmynta"},
-
-]},{"name": "Perilla",
-"children": [
-{"name": "Bladmynta"},
-
-]},{"name": "Plistersläktet",
-"children": [
-{"name": "Gulplister"},
-{"name": "Mjukplister"},
-{"name": "Rödplister"},
-{"name": "Rosenplister"},
-{"name": "Vitplister"},
-
-]},{"name": "Salviasläktet",
-"children": [
-{"name": "Ananassalvia"},
-{"name": "Kryddsalvia"},
-{"name": "Mexikansk chiasalvia"},
-{"name": "Muskatellsalvia"},
-{"name": "Rosmarin"},
-
-]},{"name": "Sugor",
-"children": [
-{"name": "Revsuga"},
-
-]},{"name": "Syskesläktet",
-"children": [
-{"name": "Knölsyska"},
-
-]},{"name": "Temyntor",
-"children": [
-{"name": "Lila Temynta"},
-{"name": "Röd temynta"},
-
-]},
-]},{"name": "Sesamväxter",
-"children": [
-{"name": "Sesamer",
-"children": [
-{"name": "Sesam"},
-
-]},
-]},{"name": "Snyltrotsväxter",
-"children": [
-{"name": "Ögontröstsläktet",
-"children": [
-{"name": "Läkeögontröst"},
-
-]},
-]},{"name": "Syrenväxter",
-"children": [
-{"name": "Olivsläktet",
-"children": [
-{"name": "Olivträd"},
-
-]},
-]},{"name": "Verbenaväxter",
-"children": [
-{"name": "Eldkronesläktet",
-"children": [
-{"name": "Eldkrona"},
-
-]},{"name": "Verbenasläktet",
-"children": [
-{"name": "Blåverbena"},
-
-]},
-]},
-]},{"name": "Potatisordningen",
-"children": [
-{"name": "Potatisväxter",
-"children": [
-{"name": "Bocktörnesläktet",
-"children": [
-{"name": "Bocktörne"},
-{"name": "Bredbladigt Bocktörne"},
-
-]},{"name": "Ekorrbärssläktet",
-"children": [
-{"name": "Vipprams"},
-
-]},{"name": "Lyktörtssläktet",
-"children": [
-{"name": "Dunlyktört"},
-{"name": "Physalis"},
-{"name": "Smalbladig Lyktört"},
-{"name": "Tomatillo"},
-
-]},{"name": "Skattor",
-"children": [
-{"name": "Amerikansk Nattskatta"},
-{"name": "Ärtaubergin"},
-{"name": "Aubergine"},
-{"name": "Besksöta"},
-{"name": "Blek Taggborre"},
-{"name": "Nattskatta"},
-{"name": "Potatis"},
-{"name": "Tomat",
-"children": [
-{"name": "Bifftomat"},
-{"name": "Körsbärstomat"},
-
-]},
-]},{"name": "Spanskpepparsläktet",
-"children": [
-{"name": "Havannapeppar"},
-{"name": "Spanskpeppar",
-"children": [
-{"name": "Chilipeppar"},
-{"name": "Paprika"},
-
-]},
-]},
-]},{"name": "Vindeväxter",
-"children": [
-{"name": "Batatsläktet",
-"children": [
-{"name": "Blomman För Dagen"},
-{"name": "Getfotsipomea"},
-{"name": "Kairopraktvinda"},
-{"name": "Månvinda"},
-{"name": "Sallatsipomea"},
-{"name": "Sötpotatis"},
-{"name": "Vit Praktvinda"},
-
-]},{"name": "Vindesläktet",
-"children": [
-{"name": "Åkervinda"},
-
-]},
-]},
-]},{"name": "Proteaordningen",
-"children": [
-{"name": "Lotusväxter",
-"children": [
-{"name": "Lotussläktet",
-"children": [
-{"name": "Amerikansk Lotus"},
-{"name": "Indisk Lotus"},
-
-]},
-]},
-]},{"name": "Rosordningen",
-"children": [
-{"name": "Almväxter",
-"children": [
-{"name": "Almsläktet",
-"children": [
-{"name": "Kinesisk Alm"},
-{"name": "Skogsalm"},
-
-]},
-]},{"name": "Hampväxter",
-"children": [
-{"name": "Bäralmssläktet",
-"children": [
-{"name": "Bäralm"},
-{"name": "Europeisk bäralm"},
-
-]},{"name": "Hampor",
-"children": [
-{"name": "Hampa"},
-
-]},{"name": "Humlesläktet",
-"children": [
-{"name": "Humle"},
-
-]},
-]},{"name": "Havtornsväxter",
-"children": [
-{"name": "Havtornssläktet",
-"children": [
-{"name": "Havtorn"},
-
-]},{"name": "Silverbusksläktet",
-"children": [
-{"name": "Japansk silverbuske"},
-{"name": "Koreansk Silverbuske"},
-{"name": "Silverbuske"},
-{"name": "Smalbladig Silverbuske"},
-
-]},
-]},{"name": "Mullbärsväxter",
-"children": [
-{"name": "Fikussläktet",
-"children": [
-{"name": "Banjan"},
-{"name": "Benjaminfikus"},
-{"name": "Fönsterfikus"},
-{"name": "Sykomor"},
-
-]},{"name": "Jackfruktsläktet",
-"children": [
-{"name": "Brödfruktträd"},
-{"name": "Jackfrukt"},
-
-]},{"name": "Maclura",
-"children": [
-{"name": "Citrusmullbär"},
-
-]},{"name": "Mullbärssläktet",
-"children": [
-{"name": "Rött Mullbär"},
-{"name": "Svart Mullbär"},
-{"name": "Vitt Mullbär"},
-
-]},{"name": "Pappersmullbärssläktet",
-"children": [
-{"name": "Pappersmullbärsträd"},
-
-]},
-]},{"name": "Nässelväxter",
-"children": [
-{"name": "Nässelsläktet",
-"children": [
-{"name": "Brännässla"},
-
-]},{"name": "Väggörter",
-"children": [
-{"name": "Amerikansk Väggört"},
-{"name": "Grenig Väggört"},
-{"name": "Väggört"},
-
-]},
-]},{"name": "Rosväxter",
-"children": [
-{"name": "Älggrässläktet",
-"children": [
-{"name": "Älggräs"},
-{"name": "Brudbröd"},
-
-]},{"name": "Apelsläktet",
-"children": [
-{"name": "Vildapel"},
-
-]},{"name": "Aplar",
-"children": [
-{"name": "Äppelträd"},
-
-]},{"name": "Aroniasläktet",
-"children": [
-{"name": "Svart aronia"},
-
-]},{"name": "Cydonia",
-"children": [
-{"name": "Kvitten"},
-
-]},{"name": "Eldtornssläktet",
-"children": [
-{"name": "Eldtorn"},
-
-]},{"name": "Eriobotryor",
-"children": [
-{"name": "Japansk Mispel"},
-
-]},{"name": "Fingerörtssläktet",
-"children": [
-{"name": "Gåsört"},
-{"name": "Skensmultron"},
-{"name": "Styv Fingerört"},
-
-]},{"name": "Häggmispelsläktet",
-"children": [
-{"name": "Häggmispel"},
-{"name": "Kopparhäggmispel"},
-{"name": "Prakthäggmispel"},
-{"name": "Sen Häggmispel"},
-{"name": "Svensk Häggmispel"},
-
-]},{"name": "Hagtornssläktet",
-"children": [
-{"name": "Douglashagtorn"},
-{"name": "Scharlakanshagtorn"},
-{"name": "Sporrhagtorn"},
-{"name": "Trädhagtorn"},
-{"name": "Trubbhagtorn"},
-
-]},{"name": "Hallonsläktet",
-"children": [
-{"name": "Åkerbär"},
-{"name": "Bäverbär"},
-{"name": "Björnbär"},
-{"name": "Blåhallon"},
-{"name": "Guldhallon"},
-{"name": "Hallon"},
-{"name": "Hallonträd"},
-{"name": "Hjortron"},
-{"name": "Jordgubbshallon"},
-{"name": "loganbär"},
-{"name": "Stenbär"},
-{"name": "Vinhallon"},
-
-]},{"name": "Mispelsläktet",
-"children": [
-{"name": "Mispel"},
-
-]},{"name": "Nejlikrotssläktet",
-"children": [
-{"name": "Humleblomster"},
-{"name": "Nejlikrot"},
-{"name": "Rysk Nejlikrot"},
-
-]},{"name": "Päronsläktet",
-"children": [
-{"name": "Sandpäron"},
-{"name": "Vildpäron"},
-
-]},{"name": "Pimpinellsläktet",
-"children": [
-{"name": "Pimpinell"},
-
-]},{"name": "Plommonsläktet",
-"children": [
-{"name": "Amerikanskt Häggkörsbär"},
-{"name": "aprikos"},
-{"name": "Glanshägg"},
-{"name": "Hägg"},
-{"name": "Körsbärsplommon"},
-{"name": "Krikon"},
-{"name": "Mandel",
-"children": [
-{"name": "Bittermandel"},
-{"name": "Sötmandel"},
-
-]},{"name": "Persika"},
-{"name": "Plommon"},
-{"name": "Slån"},
-{"name": "Sötkörsbär"},
-{"name": "Surkörsbär"},
-{"name": "Vejksel"},
-{"name": "Virginiahägg"},
-
-]},{"name": "Rönnsläktet",
-"children": [
-{"name": "Äppelrönn"},
-{"name": "Bergoxel"},
-{"name": "Oxel"},
-{"name": "Rönn"},
-{"name": "Tyskoxel"},
-{"name": "Vitoxel"},
-
-]},{"name": "Rossläktet",
-"children": [
-{"name": "Hartsros"},
-{"name": "Japansk Klätterros"},
-{"name": "Mandarinros"},
-{"name": "Spinosissimarosor"},
-{"name": "Stenros"},
-
-]},{"name": "Småborresläktet",
-"children": [
-{"name": "Småborre"},
-
-]},{"name": "Smultronsläktet",
-"children": [
-{"name": "Jättesmultron"},
-{"name": "Jordgubbe"},
-{"name": "Scharlakanssmultron"},
-{"name": "Smultron"},
-
-]},{"name": "Spireasläktet",
-"children": [
-{"name": "Vitspirea"},
-
-]},
-]},
-]},{"name": "Stenbräckeordningen",
-"children": [
-{"name": "Fetbladsväxter",
-"children": [
-{"name": "Kärleksörtssläktet",
-"children": [
-{"name": "Kärleksört"},
-
-]},{"name": "Navelörter",
-"children": [
-{"name": "Navelört"},
-
-]},{"name": "Rosenrotssläktet",
-"children": [
-{"name": "Rosenrot"},
-
-]},
-]},{"name": "Ripsväxter",
-"children": [
-{"name": "Vinbärssläktet",
-"children": [
-{"name": "Gullrips"},
-{"name": "Krusbär"},
-{"name": "Röda Vinbär",
-"children": [
-{"name": "Röda vinbär"},
-{"name": "Vita vinbär"},
-
-]},{"name": "Rosenrips"},
-{"name": "Svarta Vinbär"},
-
-]},
-]},{"name": "Slingeväxter",
-"children": [
-{"name": "Slingesläktet",
-"children": [
-{"name": "Axslinga"},
-
-]},
-]},
-]},{"name": "Väddordningen",
-"children": [
-{"name": "Desmeknoppsväxter",
-"children": [
-{"name": "Flädersläktet",
-"children": [
-{"name": "Druvfläder"},
-
-]},{"name": "Olvonsläktet",
-"children": [
-{"name": "Glansolvon"},
-{"name": "Parkolvon"},
-{"name": "Skogsolvon"},
-{"name": "Tandolvon"},
-
-]},
-]},{"name": "Kaprifolväxter",
-"children": [
-{"name": "Kardväddsläktet",
-"children": [
-{"name": "Kardvädd"},
-
-]},{"name": "Klynnen",
-"children": [
-{"name": "Vårklynne"},
-
-]},{"name": "Trysläktet",
-"children": [
-{"name": "Slingertry"},
-
-]},{"name": "Vänderotssläktet",
-"children": [
-{"name": "Läkevänderot"},
-
-]},
-]},
-]},{"name": "Vinordningen",
-"children": [
-{"name": "Vinväxter",
-"children": [
-{"name": "Vinsläktet",
-"children": [
-{"name": "Doftvin"},
-
-]},
-]},
-]},
-]},{"name": "Tvåhjärtbladiga växter",
-"children": [
-{"name": "Capparales",
-"children": [
-{"name": "Pepparrotsträdväxter",
-"children": [
-{"name": "Moringa",
-"children": [
-{"name": "Pepparrotsträd"},
-
-]},
-]},
-]},{"name": "Gurkordningen",
-"children": [
-{"name": "Gurkväxter",
-"children": [
-{"name": "Benincasa",
-"children": [
-{"name": "Vaxpumpa"},
-
-]},{"name": "Sechium",
-"children": [
-{"name": "Pärongurka"},
-
-]},
-]},
-]},{"name": "Kinesträdordningen",
-"children": [
-{"name": "Kinesträdsväxter",
-"children": [
-{"name": "Kinesträdsläktet",
-"children": [
-{"name": "Kinesträd"},
-
-]},
-]},
-]},{"name": "Näckrosordningen",
-"children": [
-{"name": "Näckrosväxter",
-"children": [
-{"name": "Gulnäckrossläktet",
-"children": [
-{"name": "Dvärgnäckros"},
-{"name": "Gul Näckros"},
-{"name": "Sextalig näckros"},
-
-]},{"name": "Näckrossläktet",
-"children": [
-{"name": "Doftnäckros"},
-{"name": "Stjärnlotus"},
-
-]},
-]},
-]},
-]},
-]},
-]},{"name": "Ginkgophyta",
-"children": [
-{"name": "Ginkgoopsida",
-"children": [
-{"name": "Ginkgoales",
-"children": [
-{"name": "Ginkgoaceae",
-"children": [
-{"name": "Ginkgo",
-"children": [
-{"name": "Ginkgo"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Grönalger",
-"children": [
-{"name": "Pryopsidophyceae",
-"children": [
-{"name": "Bryopsidales",
-"children": [
-{"name": "Codiaceae",
-"children": [
-{"name": "Codium",
-"children": [
-{"name": "Kodium"},
-
-]},
-]},
-]},
-]},{"name": "Ulvophyceae",
-"children": [
-{"name": "Ulvales",
-"children": [
-{"name": "Ulvaceae",
-"children": [
-{"name": "Ulva",
-"children": [
-{"name": "Havssallat"},
-{"name": "Tarmalg"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Ormbunksväxter",
-"children": [
-{"name": "Fräkenväxter",
-"children": [
-{"name": "Fräkenordningen",
-"children": [
-{"name": "Fräkenväxter",
-"children": [
-{"name": "Fräkensläktet",
-"children": [
-{"name": "Åkerfräken"},
-{"name": "Skavfräken"},
-
-]},
-]},
-]},
-]},{"name": "Polypodiopsida",
-"children": [
-{"name": "Polypodiales",
-"children": [
-{"name": "Nephrolepidaceae",
-"children": [
-{"name": "Nephrolepis",
-"children": [
-{"name": "Fjäderbräken"},
-
-]},
-]},{"name": "Onocleaceae",
-"children": [
-{"name": "Onoclea",
-"children": [
-{"name": "Pärlbräken"},
-
-]},
-]},
-]},
-]},{"name": "Pteridopsida",
-"children": [
-{"name": "Athyriales",
-"children": [
-{"name": "Majbräkenväxter",
-"children": [
-{"name": "Majbräknar",
-"children": [
-{"name": "Majbräken"},
-
-]},
-]},
-]},{"name": "Dennstaedtiales",
-"children": [
-{"name": "Örnbräkenväxter",
-"children": [
-{"name": "Örnbräknar",
-"children": [
-{"name": "Örnbräken"},
-
-]},
-]},
-]},{"name": "Stensöteordningen",
-"children": [
-{"name": "Stensöteväxter",
-"children": [
-{"name": "Matteuccia",
-"children": [
-{"name": "Strutbräken"},
-
-]},{"name": "Stensötor",
-"children": [
-{"name": "Stensöta"},
-
-]},
-]},
-]},
-]},
-]},{"name": "Rödalger",
-"children": [
-{"name": "Eurhodophytina",
-"children": [
-{"name": "Florideophyceae",
-"children": [
-{"name": "Ceramiales",
-"children": [
-{"name": "Delesseriaceae",
-"children": [
-{"name": "Delesseria",
-"children": [
-{"name": "Ribbeblad"},
-
-]},
-]},
-]},
-]},
-]},
-]},
-]},
-]};
-
-
-
-
 var diameter = 3000;
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = diameter,
@@ -3559,19 +11,23 @@ var zoomBehavior;
 
 var textOffset = 0;
 
-var nodeRadius = 125;
+var nodeRadius = 125;             // Radius of the main nodes
+var iconRadius = nodeRadius/2.5;    // Radius of the icons showing which parts of the plant are edible
 
 var branchLength = 600;
 var firstBranchLength = 600;
 var secondBranchLength = 600;
+var iconBranchLength = nodeRadius + iconRadius + 20;
+var iconSpreadAngle = 180;      // Angle for which the edible part-icons should be spread around, in degrees
 var branchThickness = "6px"; // Thickness of the branches as default
 
-var nLayers = 10;
+var nLayers = 11;
 
 var siblingSpacing = 5*nodeRadius;
 var nonsiblingSpacing = 6*nodeRadius;
 var spacingGrowExponent = 1;
 var minSpaceBetweenNodes = 6*nodeRadius;
+var minSpaceBetweenNodes_leaf = nodeRadius;
 
 var zoomMin = 0.1;
 var zoomMax = 0.1;
@@ -3704,11 +160,16 @@ function update(source) {
     // Count nodes at each depth
     var depthCounts = {};
     tempNodes.forEach(function(d) {
-        depthCounts[d.depth] = (depthCounts[d.depth] || 0) + 1;
+        // Only count non-leaf nodes
+        if (d.children || d._children){
+            depthCounts[d.depth] = (depthCounts[d.depth] || 0) + 1;
+        }
+        // Don't add anything for leaf nodes - just skip them
     });
 
     // Calculate cumulative radii
     var minSpacePerNode = nodeRadius * 2 + minSpaceBetweenNodes;
+
     var sortedDepths = Object.keys(depthCounts)
         .map(Number)
         .sort(function(a, b) { return a - b; });
@@ -3716,24 +177,37 @@ function update(source) {
     var cumulativeRadius = {};
     cumulativeRadius[0] = 0;
 
-    sortedDepths.forEach(function(depth) {
-        if (depth === 0) return;
-        
-        var nodeCount = depthCounts[depth];
-        var circumferenceNeeded = nodeCount * minSpacePerNode;
-        var radiusNeeded = circumferenceNeeded / (2 * Math.PI);
+sortedDepths.forEach(function(depth) {
+    if (depth === 0) return;
+    
+    // Check if all nodes at this depth are leaf nodes
+    var nodesAtDepth = tempNodes.filter(function(n) { return n.depth === depth; });
+    var allLeaves = nodesAtDepth.every(function(n) { return !n.children && !n._children; });
+    
+    var nodeCount = depthCounts[depth];
 
-        var prevRadius = cumulativeRadius[depth - 1];
-        if (depth == 1){
-            var additionalRadiusNeeded = firstBranchLength;
-        }else if (depth == 2){
-            var additionalRadiusNeeded = secondBranchLength;
-        }else{
-            var additionalRadiusNeeded = Math.max(branchLength, radiusNeeded - prevRadius);
-        }
-        
-        cumulativeRadius[depth] = prevRadius + additionalRadiusNeeded;
-    });
+        // console.log("Depth count: " + nodeCount);
+
+
+    var circumferenceNeeded = nodeCount * minSpacePerNode;
+
+        // console.log("Circumference needed: " + circumferenceNeeded);
+
+    var radiusNeeded = circumferenceNeeded / (2 * Math.PI);
+
+    var prevRadius = cumulativeRadius[depth - 1];
+    if (depth == 1){
+        var additionalRadiusNeeded = firstBranchLength;
+    } else if (depth == 2){
+        var additionalRadiusNeeded = secondBranchLength;
+    } else if (allLeaves) {
+        var additionalRadiusNeeded = iconBranchLength;
+    } else {
+        var additionalRadiusNeeded = Math.max(branchLength, radiusNeeded - prevRadius);
+    }
+    
+    cumulativeRadius[depth] = prevRadius + additionalRadiusNeeded;
+});
 
     // Find the worst-case depth (most degrees needed)
     var maxDegreesNeeded = 0;
@@ -3743,12 +217,13 @@ function update(source) {
         var radius = cumulativeRadius[depth];
         var circumference = 2 * Math.PI * radius;
         var degreesNeeded = (nodeCount * minSpacePerNode / circumference) * 360;
+        // console.log("Degrees needed: " + degreesNeeded + "deg")
         maxDegreesNeeded = Math.max(maxDegreesNeeded, degreesNeeded);
     });
 
     var actualDegrees = Math.min(360, maxDegreesNeeded);
     
-    console.log("Max degrees needed:", maxDegreesNeeded, "Using:", actualDegrees);
+    //console.log("Max degrees needed:", maxDegreesNeeded, "Using:", actualDegrees);
     
     // NOW update tree size BEFORE getting final node positions
     tree.size([actualDegrees, diameter / 2 - 80]);
@@ -3758,7 +233,10 @@ function update(source) {
     
     var nodes = tree.nodes(root);
     var links = tree.links(nodes);
+
+
     
+
     // Calculate total angular size needed for the entire tree
     var totalTreeSize = 0;
     if (root.children) {
@@ -3799,9 +277,43 @@ function update(source) {
         d.y = cumulativeRadius[d.depth] || 0;
     });
 
-    console.log("Nodes at each position:");
+ // Position leaf nodes (icons) around their parent nodes
+nodes.forEach(function(d) {
+    if (!d.children && !d._children && d.parent) {
+        // This is a leaf node - position it around its parent
+        var parent = d.parent;
+        var siblings = parent.children || [];
+        var numSiblings = siblings.length;
+        var myIndex = siblings.indexOf(d);
+        
+        // Convert parent's polar coordinates to Cartesian
+        var parentAngleRad = parent.x * Math.PI / 180;
+        var parentCartesianX = parent.y * Math.cos(parentAngleRad);
+        var parentCartesianY = parent.y * Math.sin(parentAngleRad);
+        
+        // Define Cartesian offset from parent
+        var iconDistance = nodeRadius + 50; // Distance from parent center
+        var spreadAngle = 360*(2*iconRadius*numSiblings/(2*Math.PI*iconBranchLength));
+        var angleStep = numSiblings > 1 ? spreadAngle / (numSiblings - 1) : 0;
+        var localAngle = numSiblings > 1 ? (myIndex * angleStep - spreadAngle / 2) : 0;
+        
+        // Calculate icon's Cartesian position relative to parent
+        var localAngleRad = (parent.x + localAngle) * Math.PI / 180;
+        var iconCartesianX = parentCartesianX + iconDistance * Math.cos(localAngleRad);
+        var iconCartesianY = parentCartesianY + iconDistance * Math.sin(localAngleRad);
+        
+        // Convert back to polar coordinates for D3
+        d.y = Math.sqrt(iconCartesianX * iconCartesianX + iconCartesianY * iconCartesianY);
+        d.x = Math.atan2(iconCartesianY, iconCartesianX) * 180 / Math.PI;
+        
+        // Normalize angle to 0-360
+        if (d.x < 0) d.x += 360;
+    }
+});
+
+    //console.log("Nodes at each position:");
     nodes.forEach(function(d) {
-        if (d.depth <= 2) console.log("  ", d.name, "depth:", d.depth, "x:", d.x, "y:", d.y);
+        //if (d.depth <= 2) console.log("  ", d.name || "icon node", "depth:", d.depth, "x:", d.x, "y:", d.y);
     });
 
 
@@ -3818,19 +330,18 @@ var node = svg.selectAll("g.node")
 var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
 var nodeEnter = node.enter().append("g")
-    .attr("class", "node");
+    .attr("class", function(d){
+        // If leaf-node without a url-code, there's nothing to click on, 
+        // so icon-node turns cursor to "default" in css:
+        if (!d.children && !d._children && !d.url){
+            return "node icon-node"
+        }else{
+            return "node"
+        }
+    });
 
 // Add click/touch handlers
 if (isTouchDevice) {
-
-    nodeEnter.on("touchend", function(d) {
-        console.log("Touch detected on:", d.name); // Add this line
-        d3.event.preventDefault();
-        d3.event.stopPropagation();
-        click(d);
-    });
-
-
     // Touch devices: only touchend, no mouse events at all
     nodeEnter.on("touchend", function(d) {
         d3.event.preventDefault();
@@ -3840,15 +351,17 @@ if (isTouchDevice) {
 } else {
     // Desktop: click + hover effects
     nodeEnter.on("click", click)
-        if (!isTouchDevice) {
-    nodeEnter.on("click", click)
         .on("mousemove", function(d) {
+
+            // Set the shrinkback radius to either the nodeRadius or the iconRadius:
+            var baseRadius = (!d.children && !d._children) ? iconRadius : nodeRadius;
+
             // Get mouse position relative to node center
             var mouse = d3.mouse(this);
             var distance = Math.sqrt(mouse[0] * mouse[0] + mouse[1] * mouse[1]);
             
             // If within original node radius, expand
-            if (distance <= nodeRadius) {
+            if (distance <= baseRadius && (d.children || d._children)) {
                 // Bring to front
                 this.parentNode.appendChild(this);
                 
@@ -3857,47 +370,58 @@ if (isTouchDevice) {
                 d3.select(this).select("circle")
                     .transition()
                     .duration(hoverNodeDuration_on)
-                    .attr("r", nodeRadius * hoverScale);
+                    .attr("r", baseRadius * hoverScale);
                 
-                var lines = d.name.split(lineBreakString);
-                var fontSize = calculateFontSize(lines) * hoverScale;
-                d3.select(this).select("text")
-                    .selectAll("tspan")
-                    .transition()
-                    .duration(hoverTextDuration_on)
-                    .style("font-size", fontSize + "px");
+                    if (d.name){
+                        var lines = d.name.split(lineBreakString);
+                        var fontSize = calculateFontSize(lines) * hoverScale;
+                        d3.select(this).select("text")
+                            .selectAll("tspan")
+                            .transition()
+                            .duration(hoverTextDuration_on)
+                            .style("font-size", fontSize + "px");
+                    }
             } else {
+                
+
                 // Outside original radius, shrink back
                 d3.select(this).select("circle")
                     .transition()
                     .duration(hoverNodeDuration_off)
-                    .attr("r", nodeRadius);
+                    .attr("r", baseRadius);
                 
-                var lines = d.name.split(lineBreakString);
-                var fontSize = calculateFontSize(lines);
-                d3.select(this).select("text")
-                    .selectAll("tspan")
-                    .transition()
-                    .duration(hoverTextDuration_off)
-                    .style("font-size", fontSize + "px");
+                    if (d.name){
+                        var lines = d.name.split(lineBreakString);
+                        var fontSize = calculateFontSize(lines);
+                        d3.select(this).select("text")
+                            .selectAll("tspan")
+                            .transition()
+                            .duration(hoverTextDuration_off)
+                            .style("font-size", fontSize + "px");
+                    }
             }
         })
         .on("mouseout", function(d) {
+
+            // Set the shrinkback radius to either the nodeRadius or the iconRadius:
+            var baseRadius = (!d.children && !d._children) ? iconRadius : nodeRadius;
+
             // Always shrink when mouse leaves node entirely
             d3.select(this).select("circle")
                 .transition()
                 .duration(hoverNodeDuration_off)
-                .attr("r", nodeRadius);
+                .attr("r", baseRadius);
             
-            var lines = d.name.split(lineBreakString);
-            var fontSize = calculateFontSize(lines);
-            d3.select(this).select("text")
-                .selectAll("tspan")
-                .transition()
-                .duration(hoverNodeDuration_off)
-                .style("font-size", fontSize + "px");
+                if (d.name){
+                    var lines = d.name.split(lineBreakString);
+                    var fontSize = calculateFontSize(lines);
+                    d3.select(this).select("text")
+                        .selectAll("tspan")
+                        .transition()
+                        .duration(hoverNodeDuration_off)
+                        .style("font-size", fontSize + "px");
+                }
         });
-}
 }
 
         
@@ -3905,6 +429,21 @@ if (isTouchDevice) {
 nodeEnter.append("circle")
     .attr("r", 1e-6)
     .style("fill", function(d) { return getNodeColor(d); });
+
+    // Add images for leaf nodes with icon URLs
+nodeEnter.each(function(d) {
+    if (!d.children && !d._children && d.icon ) {
+        //console.log("Creating image for node with icon:", d.icon);
+        // This is a leaf node with an image icon
+        d3.select(this).append("image")
+            .attr("xlink:href", d.icon)
+            .attr("x", -iconRadius * 1)  // Center the image
+            .attr("y", -iconRadius * 1)
+            .attr("width", iconRadius * 1.4)
+            .attr("height", iconRadius * 1.4)
+            .style("opacity", 0);
+    }
+});
 
 nodeEnter.append("text")
     .attr("x", textOffset)
@@ -3917,6 +456,11 @@ nodeEnter.append("text")
     })
 
     .each(function(d) {
+        // Skip adding text if this node has an image icon
+        if (!d.children && !d._children && d.icon) {
+            return; // Image already added above
+        }
+        
         var text = d3.select(this);
         var lines = d.name.split(lineBreakString);
         var lineHeight = 1.2; // ems
@@ -3954,11 +498,46 @@ var nodeUpdate = node.transition()
 
 
 nodeUpdate.select("circle")
-    .attr("r", nodeRadius)
-    .style("fill", function(d) { return getNodeColor(d); });
+    .attr("r", function(d) {
+        return (!d.children && !d._children) ? iconRadius : nodeRadius;
+    })
+    .style("fill", function(d) { return getNodeColor(d); })
+    .attr("class", function(d) {
+
+        if (!d.children && !d._children && !d.url) {
+            return "icon-node";  // Class for icon nodes
+        } else if (!d.children && !d._children && d.url) {
+            return "linked-node"; // Class for all of the other nodes
+        } else {
+           return "";
+        }
+            
+    })
+    ;
+
+nodeUpdate.select("image")
+    .style("opacity", 1)
+    .attr("width", iconRadius * 2)
+    .attr("height", iconRadius * 2)
+    
+    // Make sure the image is rotated correctly:
+    .attrTween("transform", function(d) {
+        var currentTransform = this.getAttribute("transform") || "rotate(0)";
+        var currentAngle = parseFloat(currentTransform.match(/rotate\(([^)]+)\)/) ? 
+            currentTransform.match(/rotate\(([^)]+)\)/)[1] : 0);
+        var targetAngle = 90 - d.x;
+        var finalAngle = shortestRotation(currentAngle, targetAngle);
+        
+        return d3.interpolateString(
+            "rotate(" + currentAngle + ")",
+            "rotate(" + finalAngle + ")"
+        );
+    })
 
 nodeUpdate.select("text")
     .style("fill-opacity", 1)
+
+    // Make sure the text is rotated correctly:
     .attrTween("transform", function(d) {
         var currentTransform = this.getAttribute("transform") || "rotate(0)";
         var currentAngle = parseFloat(currentTransform.match(/rotate\(([^)]+)\)/) ? 
@@ -3972,9 +551,12 @@ nodeUpdate.select("text")
         );
     })
     .each(function(d) {
-        var lines = d.name.split(lineBreakString); 
-        d3.select(this).selectAll("tspan")
-            .style("font-size", calculateFontSize(lines) + "px");
+
+        if (d.name){
+            var lines = d.name.split(lineBreakString); 
+            d3.select(this).selectAll("tspan")
+                .style("font-size", calculateFontSize(lines) + "px");
+        }
     });
 
     svg.selectAll("g.node").select("circle")
@@ -4008,6 +590,9 @@ nodeUpdate.select("text")
     })
     .style("stroke-width", function(d) {
         return (d.target.inSearchPath && d.source.inSearchPath) ? highlightBranchThickness : branchThickness;
+    })
+    .style("opacity", function(d) {
+        return (!d.target.children && !d.target._children) ? 0 : 1;
     });
 
 link.transition()
@@ -4018,6 +603,9 @@ link.transition()
     })
     .style("stroke-width", function(d) {
         return (d.target.inSearchPath && d.source.inSearchPath) ? highlightBranchThickness : branchThickness;
+    })
+    .style("opacity", function(d) {
+        return (!d.target.children && !d.target._children) ? 0 : 1;
     });
 
     link.exit().transition()
@@ -4035,15 +623,21 @@ link.transition()
 }
 
 function click(d) {
+    // If it's a leaf node with a URL, open the URL
+    if (!d.children && !d._children && d.url) {
+        window.open(d.url, '_blank'); // Opens in new tab
+        return; // Don't expand/collapse
+    }
+    
+    // Otherwise, expand/collapse as normal
     if (d.children) {
         d._children = d.children;
-
         d.children = null;
-        d.expanded = false;  // Track if node is expanded or not
+        d.expanded = false;
     } else {
         d.children = d._children;
         d._children = null;
-        d.expanded = true;  // Track if node is expanded or not
+        d.expanded = true;
     }
     update(d);
 }
@@ -4077,7 +671,8 @@ function zoom() {
 // Find a node by name, searching the entire tree
 function findNode(name, node) {
     // Check if this node matches (case insensitive)
-    if (node.name.toLowerCase() === name.toLowerCase()) {
+    // Skip nodes without names (leaf/icon nodes)
+    if (node.name && node.name.toLowerCase() === name.toLowerCase()) {
         return node;
     }
     
@@ -4114,12 +709,12 @@ function expandToNode(targetNode) {
     
     // Expand each ancestor in order
     path.forEach(function(ancestor) {
-        console.log("foreEach(function(ancestor)) initiated.")
+        //console.log("foreEach(function(ancestor)) initiated.")
         if (ancestor._children) {
             ancestor.children = ancestor._children;
             ancestor._children = null;
             ancestor.expanded = true;
-            console.log("if(ancestor._children) initiated.")
+            //console.log("if(ancestor._children) initiated.")
         }
     });
 }
@@ -4253,15 +848,33 @@ function assignNodeIds(node, counter) {
 
 // Calculate how much angular space each node's entire subtree needs
 function calculateSubtreeAngularSize(node, depth, maxDepth, cumulativeRadius, minSpacePerNode) {
-    if (!node.children || node.children.length === 0) {
-        // Leaf node - just needs its own space at its depth
+    // Check both children and _children to determine if truly a leaf
+    if (!node.children && !node._children) {
+        // TRUE leaf node - needs NO space in global layout
+        //console.log("True leaf node found:", node.icon || "no icon", "- returning 0 degrees");
+        //console.log("Leaf node?");
+        //return 0;
+
         var radius = cumulativeRadius[depth] || 1;
         var circumference = 2 * Math.PI * radius;
-        var degreesNeeded = (minSpacePerNode / circumference) * 360;
-        return degreesNeeded;
+        var ownSize = (minSpacePerNode / circumference) * 360;
+        ownSize = ownSize/5000; // Reduce separation size since it's the icon nodes
+        console.log("Not leaf node?");
+        return ownSize;
+
     }
     
-    // For each child, recursively calculate its subtree size
+    // Only process VISIBLE children (node.children), not collapsed ones (_children)
+    if (!node.children || node.children.length === 0) {
+        // Node is collapsed or has no visible children - treat as endpoint for angular calculation
+        var radius = cumulativeRadius[depth] || 1;
+        var circumference = 2 * Math.PI * radius;
+        var ownSize = (minSpacePerNode / circumference) * 360;
+        console.log("Not leaf node?");
+        return ownSize;
+    }
+    
+    // For each VISIBLE child, recursively calculate its subtree size
     var childSizes = node.children.map(function(child) {
         return calculateSubtreeAngularSize(child, depth + 1, maxDepth, cumulativeRadius, minSpacePerNode);
     });
@@ -4321,7 +934,11 @@ function assignAngularPositions(node, startAngle, endAngle, cumulativeRadius, mi
 // Get all node names from the tree for autocomplete
 function getAllNodeNames(node, names) {
     names = names || [];
-    names.push(node.name);
+
+    // Only add non-leaf nodes to the search list
+    if (node.children || node._children) {
+        names.push(node.name);
+    }
     
     var children = (node.children || []).concat(node._children || []);
     children.forEach(function(child) {

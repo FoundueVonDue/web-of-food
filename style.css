@@ -6,6 +6,9 @@
   stroke: steelblue;
   stroke-width: 1.5px;
 }
+
+
+
 .node text {
   font: 10px sans-serif;
 }
@@ -19,6 +22,14 @@
 g.node {
     cursor: pointer;
     transition: transform 0.2s;
+}
+
+g.node.icon-node{
+    cursor: default;
+}
+
+g.node.linked-node{
+    cursor: default;
 }
 
 g.node circle {
@@ -92,3 +103,20 @@ h2{
         transition: none !important;
     }
 }
+
+
+/* Show that node has link to click on */
+.node circle.linked-node {
+    cursor: pointer;
+    stroke: none;
+    stroke-width: 0px;
+}
+
+
+/* Style for the icon nodes */
+.node circle.icon-node {
+    cursor: default;
+    stroke: none;
+    stroke-width: 0;
+}
+
