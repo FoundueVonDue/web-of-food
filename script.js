@@ -404,32 +404,21 @@ var nodeEnter = node.enter().append("g")
 if (isTouchDevice) {
     // Touch devices: show tooltip on tap for species nodes
     nodeEnter.on("touchend", function(d) {
-
-        console.log("Touch detected on node:", d.name || "unnamed", "Has children:", !!(d.children || d._children));
-
         d3.event.preventDefault();
-        d3.event.stopPropagation();
-        
-        // Check if this is a species node (all children are leaves)
+        d3.event.stopPropagation(); // Already there — good
+
         var childrenList = d.children || d._children || [];
-        if (childrenList.length > 0) {
-            var allChildrenAreLeaves = childrenList.every(function(child) {
+        var allChildrenAreLeaves = childrenList.length > 0 &&
+            childrenList.every(function(child) {
                 return !child.children && !child._children;
             });
-            
-            // Show tooltip for species nodes
-            if (allChildrenAreLeaves && d.name) {
-                showTooltip(d3.event, d);
-            }
-        }
 
-        // Hide tooltip when clicking on non-species nodes
-        if (!(childrenList.length > 0 && allChildrenAreLeaves)) {
+        if (allChildrenAreLeaves && d.name) {
+            showTooltip(d3.event, d);
+        } else {
             hideTooltip();
         }
-        
-        // Proceed with normal click behavior (expand/collapse)
-        console.log("Calling click() on node:", d.name || "unnamed");
+
         click(d);
     });
 } else {
