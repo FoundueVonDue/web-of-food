@@ -404,6 +404,9 @@ var nodeEnter = node.enter().append("g")
 if (isTouchDevice) {
     // Touch devices: show tooltip on tap for species nodes
     nodeEnter.on("touchend", function(d) {
+
+        console.log("Touch detected on node:", d.name || "unnamed", "Has children:", !!(d.children || d._children));
+
         d3.event.preventDefault();
         d3.event.stopPropagation();
         
@@ -426,6 +429,7 @@ if (isTouchDevice) {
         }
         
         // Proceed with normal click behavior (expand/collapse)
+        console.log("Calling click() on node:", d.name || "unnamed");
         click(d);
     });
 } else {
