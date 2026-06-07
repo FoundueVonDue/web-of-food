@@ -103,6 +103,66 @@ root.y0 = 0;
 // Establish parent relationships for the entire tree
 tree.nodes(root); 
 
+
+
+// Create hover effect on species nodes:
+
+function showTooltip(event, d) {
+    if (!d.name) return;
+    
+    // Check if all children are leaf nodes (icons) - check both children and _children
+    var childrenList = d.children || d._children || [];
+    
+    if (childrenList.length > 0) {
+        var allChildrenAreLeaves = childrenList.every(function(child) {
+            return !child.children && !child._children;
+        });
+        
+        // Only show tooltip if this node's children are all leaves (species level)
+        if (!allChildrenAreLeaves) {
+            return; // Don't show tooltip for non-species nodes
+        }
+    } else {
+        return; // No children, not species level
+    }
+    
+    var tooltip = document.getElementById("tooltip");
+    var tooltipText = "<strong>" + d.name + "</strong>";
+    
+    // Add alternative names (filter out null values)
+    var altNames = [];
+    for (var i = 2; i <= 6; i++) {
+        var altName = d["name_alt" + i];
+        if (altName && altName !== "null") {
+            altNames.push(altName);
+        }
+    }
+
+    if (altNames.length > 0) {
+        tooltipText += "<strong> / " + altNames.join(" / ") + "</strong>";
+    }
+
+        // Add Latin name if exists
+    if (d.name_latin && d.name_latin !== "null") {
+        tooltipText += " <br/><em>" + d.name_latin + "</em>";
+    }
+    
+
+    
+
+    
+    tooltip.innerHTML = tooltipText;
+    tooltip.style.display = "block";
+    
+    // Fixed position in bottom right corner instead of following cursor
+    tooltip.style.position = "fixed";
+    tooltip.style.bottom = "20px";
+    tooltip.style.right = "20px";
+}
+
+
+
+
 // Assign stable IDs to all nodes
 assignNodeIds(root);
 
@@ -342,16 +402,49 @@ var nodeEnter = node.enter().append("g")
 
 // Add click/touch handlers
 if (isTouchDevice) {
-    // Touch devices: only touchend, no mouse events at all
+    // Touch devices: show tooltip on tap for species nodes
     nodeEnter.on("touchend", function(d) {
         d3.event.preventDefault();
         d3.event.stopPropagation();
+        
+        // Check if this is a species node (all children are leaves)
+        var childrenList = d.children || d._children || [];
+        if (childrenList.length > 0) {
+            var allChildrenAreLeaves = childrenList.every(function(child) {
+                return !child.children && !child._children;
+            });
+            
+            // Show tooltip for species nodes
+            if (allChildrenAreLeaves && d.name) {
+                showTooltip(d3.event, d);
+            }
+        }
+
+        // Hide tooltip when clicking on non-species nodes
+        if (!(childrenList.length > 0 && allChildrenAreLeaves)) {
+            hideTooltip();
+        }
+        
+        // Proceed with normal click behavior (expand/collapse)
         click(d);
     });
 } else {
     // Desktop: click + hover effects
     nodeEnter.on("click", click)
+
+        // Show tooltip on mouseover (separate from expansion hover)
+        .on("mouseover", function(d) {
+            showTooltip(d3.event, d);
+        })
+        // Hide tooltip on mouseout (separate from expansion hover)
+        .on("mouseout", function(d) {
+            hideTooltip();
+        })
+
+
+
         .on("mousemove", function(d) {
+
 
             // Set the shrinkback radius to either the nodeRadius or the iconRadius:
             var baseRadius = (!d.children && !d._children) ? iconRadius : nodeRadius;
@@ -402,6 +495,7 @@ if (isTouchDevice) {
             }
         })
         .on("mouseout", function(d) {
+
 
             // Set the shrinkback radius to either the nodeRadius or the iconRadius:
             var baseRadius = (!d.children && !d._children) ? iconRadius : nodeRadius;
@@ -558,6 +652,18 @@ nodeUpdate.select("text")
                 .style("font-size", calculateFontSize(lines) + "px");
         }
     });
+
+
+    // Add hover tooltip to ALL nodes (both new and existing)
+    var allNodes = svg.selectAll("g.node");
+
+    allNodes.on("mouseover", function(d) {
+        showTooltip(d3.event, d);
+    })
+    .on("mouseout", function(d) {
+        hideTooltip();
+    });
+
 
     svg.selectAll("g.node").select("circle")
     .style("fill", function(d) { 
@@ -931,18 +1037,44 @@ function assignAngularPositions(node, startAngle, endAngle, cumulativeRadius, mi
 
 
 
-// Get all node names from the tree for autocomplete
-function getAllNodeNames(node, names) {
+// Get all searchable names from the tree (including alternatives and Latin names)
+function getAllSearchableNames(node, names) {
     names = names || [];
 
     // Only add non-leaf nodes to the search list
     if (node.children || node._children) {
-        names.push(node.name);
+        // Add main name
+        names.push({
+            displayName: node.name,
+            searchName: node.name,
+            node: node
+        });
+        
+        // Add alternative names (filter out null values)
+        for (var i = 2; i <= 6; i++) {
+            var altName = node["name_alt" + i];
+            if (altName && altName !== "null") {
+                names.push({
+                    displayName: altName + " (synonym)",
+                    searchName: altName,
+                    node: node
+                });
+            }
+        }
+        
+        // Add Latin name if exists
+        if (node.name_latin && node.name_latin !== "null") {
+            names.push({
+                displayName: node.name_latin + " (Latin)",
+                searchName: node.name_latin,
+                node: node
+            });
+        }
     }
     
     var children = (node.children || []).concat(node._children || []);
     children.forEach(function(child) {
-        getAllNodeNames(child, names);
+        getAllSearchableNames(child, names);
     });
     
     return names;
@@ -961,17 +1093,26 @@ function updateSuggestions() {
     
     if (input.length < 2) return; // Only show suggestions after 2 characters
     
-    // Get all node names and filter by input
-    var allNames = getAllNodeNames(root);
-    var matches = allNames.filter(function(name) {
-        return name.toLowerCase().indexOf(input) === 0; // Starts with input
+    // Get all searchable names (including alternatives and Latin names)
+    var allSearchableNames = getAllSearchableNames(root);
+    var matches = allSearchableNames.filter(function(item) {
+        return item.searchName.toLowerCase().indexOf(input) !== -1;
     });
     
-    // Sort alphabetically and limit to 10 suggestions
-    matches.sort();
-    matches.slice(0, 10).forEach(function(name) {
+    // Remove duplicates and limit to 10 suggestions
+    var seen = new Set();
+    matches = matches.filter(function(item) {
+        if (seen.has(item.displayName)) {
+            return false;
+        }
+        seen.add(item.displayName);
+        return true;
+    });
+    
+    matches.slice(0, 10).forEach(function(item) {
         var option = document.createElement("option");
-        option.value = name;
+        option.value = item.node.name; // Search by main name
+        option.textContent = item.displayName; // Display with label
         datalist.appendChild(option);
     });
 }
@@ -1045,3 +1186,40 @@ document.addEventListener("keydown", function(event) {
 
 // Add autocomplete
 document.getElementById("search-input").addEventListener("input", updateSuggestions);
+
+
+// Hide name box when clicking in blank area (only on touch screens):
+svg.on("touchend", function() {
+    // Hide tooltip when tapping empty space
+    if (d3.event.target === this) {
+        hideTooltip();
+    }
+});
+
+
+
+// Preload all icon images after page load to save loading time
+window.addEventListener('load', function() {
+    // Get all unique icon URLs from the tree
+    var iconUrls = new Set();
+    
+    function collectIconUrls(node) {
+        if (node.icon) {
+            iconUrls.add(node.icon);
+        }
+        
+        var children = (node.children || []).concat(node._children || []);
+        children.forEach(function(child) {
+            collectIconUrls(child);
+        });
+    }
+    
+    collectIconUrls(root);
+    
+    // Preload each icon
+    iconUrls.forEach(function(url) {
+        var img = new Image();
+        img.src = url;
+        console.log("Preloading icon:", url);
+    });
+});
