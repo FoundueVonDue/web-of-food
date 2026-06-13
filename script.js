@@ -168,7 +168,7 @@ function showTooltip(event, d) {
 
 function hideTooltip() {
     var tooltip = document.getElementById("tooltip");
-    if (tooltip) {
+    if (tooltip && isTouchDevice) {
         tooltip.style.display = "none";
     }
 }
