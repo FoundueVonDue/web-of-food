@@ -1,3 +1,6 @@
+var touchDeviceMode = false;    // Used to check how the souch screen version works, even if not checking it from a laptop
+
+
 var diameter = 3000;
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = diameter,
@@ -54,6 +57,9 @@ var baseFontSize = maxFontSize;  // Base font size for short names
 var minFontSize = 18;    // Minimum font size
 var charThreshold = 8; // Character count where scaling starts
 
+
+// Search function variables:
+var nSearchResults = 100;
 
 // Interpolation function, so that an angle transition always goes the shortest way, even if it crosses 0/360 deg:
 function shortestRotation(startAngle, endAngle) {
@@ -158,6 +164,13 @@ function showTooltip(event, d) {
     tooltip.style.position = "fixed";
     tooltip.style.bottom = "20px";
     tooltip.style.right = "20px";
+}
+
+function hideTooltip() {
+    var tooltip = document.getElementById("tooltip");
+    if (tooltip) {
+        tooltip.style.display = "none";
+    }
 }
 
 
@@ -387,7 +400,13 @@ var node = svg.selectAll("g.node")
     });
 
 // Detect if this is a touch device
-var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || touchDeviceMode;
+console.log("isTouchDevice:", isTouchDevice); // Show in the log whether it's registering the format as a touch devide
+
+// Check if any touchend reaches the page:
+document.addEventListener("touchend", function(e) {
+    console.log("Document-level touchend detected on:", e.target);
+}, true);
 
 var nodeEnter = node.enter().append("g")
     .attr("class", function(d){
@@ -402,10 +421,23 @@ var nodeEnter = node.enter().append("g")
 
 // Add click/touch handlers
 if (isTouchDevice) {
+
+    // Check again is the touchDevice variable is true:
+    console.log("Attaching touch handlers, isTouchDevice =", isTouchDevice);
+
+
+
     // Touch devices: show tooltip on tap for species nodes
     nodeEnter.on("touchend", function(d) {
+        console.log("touchend fired on node:", d.name || "icon");
+        
         d3.event.preventDefault();
-        d3.event.stopPropagation(); // Already there — good
+        d3.event.stopPropagation();
+
+        var debugEl = document.getElementById("debug-output");
+        if (debugEl) {
+            debugEl.textContent = "Touch: " + (d.name || "icon");
+        }
 
         var childrenList = d.children || d._children || [];
         var allChildrenAreLeaves = childrenList.length > 0 &&
@@ -647,7 +679,8 @@ nodeUpdate.select("text")
     });
 
 
-    // Add hover tooltip to ALL nodes (both new and existing)
+    if(!isTouchDevice){
+    // Add hover tooltip to ALL nodes (both new and existing), but only if not a touch screen
     var allNodes = svg.selectAll("g.node");
 
     allNodes.on("mouseover", function(d) {
@@ -656,6 +689,7 @@ nodeUpdate.select("text")
     .on("mouseout", function(d) {
         hideTooltip();
     });
+    }
 
 
     svg.selectAll("g.node").select("circle")
@@ -957,8 +991,7 @@ function calculateSubtreeAngularSize(node, depth, maxDepth, cumulativeRadius, mi
         var radius = cumulativeRadius[depth] || 1;
         var circumference = 2 * Math.PI * radius;
         var ownSize = (minSpacePerNode / circumference) * 360;
-        ownSize = ownSize/5000; // Reduce separation size since it's the icon nodes
-        console.log("Not leaf node?");
+        ownSize = ownSize/5000; // Reduce separation size since it's the icon nodes;
         return ownSize;
 
     }
@@ -969,7 +1002,6 @@ function calculateSubtreeAngularSize(node, depth, maxDepth, cumulativeRadius, mi
         var radius = cumulativeRadius[depth] || 1;
         var circumference = 2 * Math.PI * radius;
         var ownSize = (minSpacePerNode / circumference) * 360;
-        console.log("Not leaf node?");
         return ownSize;
     }
     
@@ -1092,7 +1124,7 @@ function updateSuggestions() {
         return item.searchName.toLowerCase().indexOf(input) !== -1;
     });
     
-    // Remove duplicates and limit to 10 suggestions
+    // Remove duplicates and limit to nSearchResults number of suggestions
     var seen = new Set();
     matches = matches.filter(function(item) {
         if (seen.has(item.displayName)) {
@@ -1102,7 +1134,7 @@ function updateSuggestions() {
         return true;
     });
     
-    matches.slice(0, 10).forEach(function(item) {
+    matches.slice(0, nSearchResults).forEach(function(item) {
         var option = document.createElement("option");
         option.value = item.node.name; // Search by main name
         option.textContent = item.displayName; // Display with label
