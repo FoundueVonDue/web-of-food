@@ -21,7 +21,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Ascophyllum nodosum",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 
 ]},{"name": "Fucus",
@@ -34,7 +34,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Fucus vesiculosus",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 {"name": "Sågtång",
 "name_alt2": null,
@@ -44,7 +44,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Fucus serratus",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 {"name": "Smaltång",
 "name_alt2": null,
@@ -54,7 +54,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Fucus radicans",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://oxyshop.se/sv/dykning-litteratur/bok/bok-plocka-tang-strandvaxter.html"},
  ]},
 
 ]},
@@ -70,7 +70,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Sargassum muticum",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.spearfishing.co.uk/foraging/foraging-seaweed-the-superfood-of-the-sea/"},
  ]},
 
 ]},
@@ -89,7 +89,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Chorda filum",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 
 ]},
@@ -105,7 +105,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Laminaria digitata",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 {"name": "Stor-tare",
 "name_alt2": null,
@@ -128,7 +128,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Saccharina latissima",
 "children": [
-{"icon": "icons/Sjögräs.png", "url": null},
+{"icon": "icons/Sjögräs.png", "url": "https://www.landleyskok.se/recept/visst-kan-man-ata-tang"},
  ]},
 
 ]},
@@ -156,7 +156,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lentinula edodes",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.seriouseats.com/smoky-roasted-shiitake-mushrooms-recipe-11849955"},
  ]},
 
 ]},
@@ -175,7 +175,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Auricularia auricula-judae",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/wood-ears-2/"},
  ]},
 
 ]},
@@ -194,7 +194,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Cantharellus pallens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/frosted-chanterelle/"},
  ]},
 {"name": "Kantarell",
 "name_alt2": null,
@@ -204,7 +204,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Cantharellus cibarius",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.koket.se/herman_rasmuson/safta_och_sylta/svamp/syrade_kantareller"},
  ]},
 
 ]},{"name": "Craterellus",
@@ -217,7 +217,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Craterellus lutescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://ultimate-mushroom.com/edible/291-craterellus-lutescens.html"},
  ]},
 {"name": "Svart Trumpetsvamp",
 "name_alt2": null,
@@ -227,7 +227,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Craterellus cornucopioides",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://practicalselfreliance.com/black-trumpet-mushrooms/"},
  ]},
 {"name": "Trattkantarell",
 "name_alt2": null,
@@ -237,7 +237,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Craterellus tubaeformis",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/winter-chanterelle/"},
  ]},
 
 ]},{"name": "Mat-taggsvampar",
@@ -250,7 +250,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hydnum repandum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/hedgehog-mushrooms/"},
  ]},
 {"name": "Rödgul Taggsvamp",
 "name_alt2": null,
@@ -260,7 +260,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hydnum rufescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/hydnum-rufescens.php"},
  ]},
 
 ]},
@@ -272,14 +272,14 @@ var pubs =
 {"name": "Neolentinus",
 "children": [
 {"name": "Syllsvamp",
-"name_alt2": null,
+"name_alt2": "Syllmussling",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Neolentinus lepideus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragedfoodie.blogspot.com/2023/05/Identify-train-wrecker-mushroom.html"},
  ]},
 
 ]},
@@ -298,7 +298,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Ramaria botrytis",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/ramaria-botrytis/"},
  ]},
 
 ]},{"name": "Gomphus",
@@ -311,7 +311,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Gomphus clavatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/pig-ear-mushrooms-gomphus-clavatus-and-friends/"},
  ]},
 
 ]},
@@ -330,17 +330,17 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Phallus hadriani",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/phallus-hadriani.php"},
  ]},
 {"name": "Stinksvamp",
-"name_alt2": null,
+"name_alt2": "Liksvamp",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Phallus impudicus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/fungi-and-lichens/stinkhorn/"},
  ]},
 
 ]},
@@ -359,7 +359,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Ischnoderma resinosum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/resinous-polypore-ischnoderma-resinosum/"},
  ]},
 
 ]},
@@ -375,7 +375,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Grifola frondosa",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://savvy-planet.com/blogs/recipes/roasted-hen-of-the-woods-mushrooms?srsltid=AfmBOooEtUOqTfAAbcr-QU2fjHjt4fC5kPTR31AcNaH7k9iE0N9Bqwde"},
  ]},
 
 ]},{"name": "Meripilus",
@@ -388,7 +388,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Meripilus giganteus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.theforagingfoodie.co.uk/mushrooms/foraged-mushroom-6-giant-polypore/"},
  ]},
 
 ]},
@@ -404,7 +404,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Laetiporus sulphureus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.thesophisticatedcaveman.com/sauteed-chicken-of-the-woods/"},
  ]},
 
 ]},{"name": "Polyporus",
@@ -417,7 +417,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Polyporus umbellatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.tyrantfarms.com/identify-umbrella-polypore-mushroom-polyporus-umbellatus-recipe/"},
  ]},
 
 ]},{"name": "Trametes",
@@ -430,7 +430,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Trametes versicolor",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.theforagingfoodie.co.uk/mushrooms/my-first-foraged-mushroom-trametes-versicolor-turkey-tail/"},
  ]},
 
 ]},
@@ -446,7 +446,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Sparassis crispa",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/cauliflower-mushrooms-sparassis/"},
  ]},
 
 ]},
@@ -465,7 +465,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Albatrellus ovinus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroom-appreciation.com/sheep-polypore.html"},
  ]},
 
 ]},
@@ -481,7 +481,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Artomyces pyxidatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/crown-coral-mushrooms/"},
  ]},
 
 ]},
@@ -497,7 +497,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hericium erinaceus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.feastingathome.com/what-is-lions-mane-and-how-to-cook-it/"},
  ]},
 {"name": "Koralltaggsvamp",
 "name_alt2": null,
@@ -507,7 +507,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hericium coralloides",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://wildfoodsandwilderness.com/coral-tooth-mushroom"},
  ]},
 
 ]},
@@ -523,7 +523,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Russula aeruginea",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/russula-aeruginea.php"},
  ]},
 {"name": "Kantkremla",
 "name_alt2": null,
@@ -533,7 +533,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Russula vesca",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.inaturalist.org/taxa/352311-Russula-vesca"},
  ]},
 {"name": "Mandelkremla",
 "name_alt2": null,
@@ -543,7 +543,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Russula integra",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://svampguiden.com/en/art/5881-nutty-brittlegill"},
  ]},
 {"name": "Rutkremla",
 "name_alt2": null,
@@ -553,7 +553,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Russula virescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-green-brittle-gill-russula-parvovirescens/"},
  ]},
 {"name": "Sillkremla",
 "name_alt2": null,
@@ -563,20 +563,20 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Russula xerampelina",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroom-appreciation.com/shrimp-russula-identification.html"},
  ]},
 
 ]},{"name": "Riskor",
 "children": [
 {"name": "Blodriska",
-"name_alt2": null,
+"name_alt2": "Granblodriska",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Lactarius deterrimus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/lactarius-aurantiacus.php"},
  ]},
 {"name": "Grönfläckig Vinriska",
 "name_alt2": null,
@@ -586,7 +586,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lactarius semisanguifluus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://ultimate-mushroom.com/edible/674-lactarius-semisanguifluus.html"},
  ]},
 {"name": "Kamferriska",
 "name_alt2": null,
@@ -596,7 +596,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lactarius camphoratus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/lactarius-camphoratus.php"},
  ]},
 {"name": "Mandelriska",
 "name_alt2": null,
@@ -606,7 +606,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lactifluus volemus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/lactarius-volemus/"},
  ]},
 {"name": "Pepparriska",
 "name_alt2": null,
@@ -616,17 +616,17 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lactarius rufus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.inaturalist.org/taxa/118223-Lactarius-rufus"},
  ]},
 {"name": "Tallblodriska",
-"name_alt2": null,
-"name_alt3": null,
+"name_alt2": "Läcker riska",
+"name_alt3": "Läckerriska",
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Lactarius deliciosus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/painted-on-the-stones-saffron-milk-caps/"},
  ]},
 {"name": "Vinriska",
 "name_alt2": null,
@@ -636,7 +636,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lactarius sanguifluus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.gone71.com/edible-mushrooms/bloody-milk-cap-lactarius-sanguifluus/"},
  ]},
 
 ]},
@@ -655,7 +655,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Calvatia gigantea",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://nordicfoodlab.org/blog/2025/03/the-giant-puffball/"},
  ]},
 
 ]},{"name": "Champinjoner",
@@ -668,7 +668,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Agaricus campestris",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/in-a-yard-near-you-agaricus-campestrismeadow-mushroom/"},
  ]},
 {"name": "Kungschampinjon",
 "name_alt2": null,
@@ -678,7 +678,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Agaricus augustus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroomdiary.co.uk/2010/09/the-prince-mushroom-agaricus-augustus/"},
  ]},
 {"name": "Skogschampinjon",
 "name_alt2": null,
@@ -688,7 +688,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Agaricus sylvaticus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroomdiary.co.uk/2017/11/blushing-wood-mushroom/"},
  ]},
 {"name": "Trädgårdschampinjon",
 "name_alt2": null,
@@ -698,7 +698,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Agaricus bisporus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://feastingnotfasting.com/baked-portobello-mushrooms-the-best/"},
  ]},
 
 ]},{"name": "Chlorophyllum",
@@ -711,7 +711,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Chlorophyllum rhacodes",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-shaggy-parasol-chlorophyllum-rhacodes/"},
  ]},
 
 ]},{"name": "Coprinus",
@@ -724,7 +724,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Coprinus comatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-shaggy-mane-mushroomlawyers-wig/"},
  ]},
 
 ]},{"name": "Lycoperdon",
@@ -737,7 +737,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lycoperdon perlatum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/common-puffball/"},
  ]},
 
 ]},{"name": "Macrolepiota",
@@ -750,7 +750,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Macrolepiota procera",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/parasol/"},
  ]},
 
 ]},
@@ -766,7 +766,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Amanita muscaria var. muscaria",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://williamrubel.com/amanita-muscaria-is-edible-if-parboiled/"},
  ]},
 {"name": "Rodnande Flugsvamp",
 "name_alt2": null,
@@ -776,7 +776,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Amanita rubescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.gone71.com/blusher-amanita-rubescens/"},
  ]},
 
 ]},
@@ -792,7 +792,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Fistulina hepatica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-beefsteak-mushroom-fistulina-hepatica/"},
  ]},
 
 ]},
@@ -808,7 +808,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hygrophorus hypothejus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/hygrophorus-hypothejus.php"},
  ]},
 {"name": "Kremlevaxskivling",
 "name_alt2": null,
@@ -818,7 +818,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hygrophorus russula",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/hygrophorus-russula/"},
  ]},
 
 ]},
@@ -834,7 +834,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Calocybe gambosa",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/st-georges-mushroom/"},
  ]},
 
 ]},
@@ -843,14 +843,14 @@ var pubs =
 {"name": "Marasmius",
 "children": [
 {"name": "Nejlikbroskskivling",
-"name_alt2": null,
+"name_alt2": "Nejlikbrosking",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Marasmius oreades",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/fairy-ring-mushrooms-marasmius-oreades/"},
  ]},
 
 ]},
@@ -866,7 +866,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Panellus serotinus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/late-fall-oyster-mushroom-sarcomyxa-serotina/"},
  ]},
 
 ]},
@@ -876,26 +876,26 @@ var pubs =
 "children": [
 {"name": "Vinterskivling",
 "name_alt2": "Vinternagelskivling",
-"name_alt3": null,
-"name_alt4": null,
+"name_alt3": "Vild enoki",
+"name_alt4": "Vild enokitake",
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Flammulina velutipes",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragedfoodie.blogspot.com/2021/11/Velvet-foot-mushroom-identification-foraging.html"},
  ]},
 
 ]},{"name": "Honungsskivlingar",
 "children": [
 {"name": "Honungsskivling",
-"name_alt2": null,
+"name_alt2": "Sydlig honungsskivling",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Armillaria mellea",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://gallowaywildfoods.com/honey-fungus-identification-edibility-distribution-ecological-role/"},
  ]},
 {"name": "Klubbhonungsskivling",
 "name_alt2": null,
@@ -905,7 +905,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Armillaria gallica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://gallowaywildfoods.com/honey-fungus-identification-edibility-distribution-ecological-role/"},
  ]},
 
 ]},
@@ -921,7 +921,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Pleurotus citrinopileatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/foraging-golden-oyster-mushrooms-pleurotus-citrinopileatus/"},
  ]},
 {"name": "Kungsmussling",
 "name_alt2": "Kejsarhatt",
@@ -931,17 +931,17 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Pleurotus eryngii",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://zestfulkitchen.com/pan-fried-king-oyster-mushrooms-recipe/"},
  ]},
 {"name": "Ostronmussling",
-"name_alt2": null,
+"name_alt2": "Ostronskivling",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Pleurotus ostreatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://mexicanmademeatless.com/oyster-mushroom-recipes-mexican/"},
  ]},
 {"name": "Ringmussling",
 "name_alt2": null,
@@ -951,7 +951,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Pleurotus dryinus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/veiled-oyster-mushroom-pleurotus-dryinus/"},
  ]},
 
 ]},
@@ -977,7 +977,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Pluteus cervinus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-fawndeer-mushroom-pluteus-cervinus/"},
  ]},
 
 ]},{"name": "Slidskivlingar",
@@ -990,7 +990,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Volvariella volvacea",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://livelytable.com/mushrooms/types-of-mushrooms/volvariella-volvacea/"},
  ]},
 {"name": "Silkesslidskivling",
 "name_alt2": null,
@@ -1000,7 +1000,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Volvariella bombycina",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/silky-rosegill-volvariella-bombycina/"},
  ]},
 
 ]},
@@ -1016,7 +1016,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Coprinellus micaceus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/mica-cap-mushroom/"},
  ]},
 
 ]},
@@ -1032,7 +1032,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hypholoma capnoides",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/hypholoma-capnoides.php"},
  ]},
 
 ]},{"name": "Tofsskivlingar",
@@ -1045,7 +1045,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Pholiota adiposa",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/chestnut-mushroom/"},
  ]},
 
 ]},
@@ -1061,7 +1061,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hypsizygus ulmarius",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/elm-oyster-mushroom/"},
  ]},
 
 ]},{"name": "Lepista",
@@ -1074,7 +1074,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lepista nuda",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/blewits/"},
  ]},
 {"name": "Höstmusseron",
 "name_alt2": null,
@@ -1084,7 +1084,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lepista personata",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroomdiary.co.uk/2016/01/field-blewit-blue-legs/"},
  ]},
 
 ]},{"name": "Musseroner",
@@ -1097,7 +1097,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Tricholoma matsutake",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://norecipes.com/matsutake-mushroom-risotto-recipe/"},
  ]},
 {"name": "Poppelmusseron",
 "name_alt2": null,
@@ -1107,7 +1107,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Tricholoma populinum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://urbanmushrooms.com/index.php?id=86"},
  ]},
 
 ]},
@@ -1126,7 +1126,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Imleria badia",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/bay-bolete-boletus-imleria-badia/"},
  ]},
 
 ]},
@@ -1142,7 +1142,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Gyroporus cyanescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/cornflower-blue-bolete-gyroporus-cyanescens/"},
  ]},
 {"name": "Kastanjesopp",
 "name_alt2": null,
@@ -1152,7 +1152,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Gyroporus castaneus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/the-chestnut-bolete-gyroporus-castaneus/"},
  ]},
 
 ]},
@@ -1168,7 +1168,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Hygrophoropsis aurantiaca",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.mushroomdiary.co.uk/2012/07/false-chanterelle-mushroom/"},
  ]},
 
 ]},
@@ -1184,7 +1184,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Suillus granulatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.first-nature.com/fungi/suillus-granulatus.php"},
  ]},
 {"name": "Lärksopp",
 "name_alt2": null,
@@ -1194,7 +1194,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Suillus grevillei",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.wildfooduk.com/mushroom-guide/larch-bolete/"},
  ]},
 {"name": "Sandsopp",
 "name_alt2": null,
@@ -1204,7 +1204,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Suillus variegatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.gone71.com/velvet-bolete-suillus-variegatus/"},
  ]},
 {"name": "Smörsopp",
 "name_alt2": null,
@@ -1214,7 +1214,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Suillus luteus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://steemit.com/foraging/@haphazard-hstead/slippery-jack-an-under-appreciated-wild-edible-mushroom-100-original-part-1-foraging"},
  ]},
 
 ]},
@@ -1233,7 +1233,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Sarcodon imbricatus",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.gone71.com/scaly-or-shingled-hedgehog-sarcodon-imbricatus/"},
  ]},
 
 ]},
@@ -1255,7 +1255,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Tremella mesenterica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://practicalselfreliance.com/witches-butter/"},
  ]},
 
 ]},
@@ -1277,7 +1277,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Ustilago maydis",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.rickbayless.com/recipe/huitlacoche-corn-mushroom-tacos/"},
  ]},
 
 ]},
@@ -1302,7 +1302,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Cordyceps militaris",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/cordyceps-militaris/"},
  ]},
 
 ]},
@@ -1324,7 +1324,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Cladonia rangiferina",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://estoniancuisine.com/2019/06/01/reindeer-moss-in-chocolate/"},
 {"icon": "icons/Sjögräs.png", "url": null},
  ]},
 
@@ -1341,7 +1341,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Bryoria fuscescens",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://laponia.nu/habitatskarta/manlav/"},
 {"icon": "icons/Lav.png", "url": null},
  ]},
 
@@ -1355,7 +1355,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Cetraria islandica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.britannica.com/science/Iceland-moss"},
 {"icon": "icons/Lav.png", "url": null},
  ]},
 
@@ -1375,7 +1375,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Lasallia pustulata",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.utsidan.se/forum/threads/aeta-tuschlav.35956/"},
 {"icon": "icons/Lav.png", "url": null},
  ]},
 
@@ -1391,14 +1391,14 @@ var pubs =
 {"name": "Stenmurklor",
 "children": [
 {"name": "Stenmurkla",
-"name_alt2": null,
+"name_alt2": "Falsk murkla",
 "name_alt3": null,
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Gyromitra esculenta",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.ruokavirasto.fi/sv/livsmedel3/instruktioner-for-konsumenter/nyheter-for-konsumenter/meddelande_livsmedel/forbehandla-stenmurklorna-ratt2/"},
  ]},
 
 ]},
@@ -1415,7 +1415,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Morchella semilibera",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/half-free-morels/"},
  ]},
 {"name": "Toppmurkla",
 "name_alt2": null,
@@ -1425,7 +1425,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Morchella conica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://vinbanken.se/artiklar/toppmurkla-recept-pa-ljuvlig-risotto-2941"},
  ]},
 
 ]},{"name": "Verpa",
@@ -1438,7 +1438,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Verpa bohemica",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://foragerchef.com/verpa-bohemica/"},
  ]},
 
 ]},
@@ -1448,13 +1448,13 @@ var pubs =
 "children": [
 {"name": "Albatryffel",
 "name_alt2": "Piemontesertryffel",
-"name_alt3": null,
+"name_alt3": "Piemonte-tryffel",
 "name_alt4": null,
 "name_alt5": null,
 "name_alt6": null,
 "name_latin": "Tuber magnatum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://realtrufflehunters.com/the-beginners-guide-to-cooking-with-truffles/"},
  ]},
 {"name": "Perigordtryffel",
 "name_alt2": null,
@@ -1464,7 +1464,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Tuber melanosporum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://realtrufflehunters.com/the-beginners-guide-to-cooking-with-truffles/"},
  ]},
 {"name": "Sommartryffel",
 "name_alt2": null,
@@ -1474,7 +1474,7 @@ var pubs =
 "name_alt6": null,
 "name_latin": "Tuber aestivum",
 "children": [
-{"icon": "icons/Svamp.png", "url": null},
+{"icon": "icons/Svamp.png", "url": "https://www.dartagnan.com/summer-truffle-peelings-recipes-and-uses.html?srsltid=AfmBOoodWmNsyBjMToyzn5_m1Ma35Jta6RMZ3D_nn2CAafPcHmoyslTd"},
  ]},
 
 ]},
@@ -8638,7 +8638,7 @@ var pubs =
 "children": [
 {"name": "Manihot",
 "children": [
-{"name": "Cassava",
+{"name": "Maniok",
 "name_alt2": "Kassava",
 "name_alt3": "Yuca",
 "name_alt4": "Yucca",
@@ -9011,7 +9011,7 @@ var pubs =
 {"name": "Mjölkesläktet",
 "children": [
 {"name": "Mjölke",
-"name_alt2": "Mjölkört",
+"name_alt2": "Mjölke",
 "name_alt3": "Rallarros",
 "name_alt4": null,
 "name_alt5": null,
